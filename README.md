@@ -2,7 +2,7 @@
 A interesting passcoding system based on binary and SHA-256, while the original inspiration is from a Grade 5 pupil in 2018
 # 二进制密码转换终端 V1.1：分层原理说明
 
-编写日期：2026年11月2日。本文以当前发布的 `binary_passcode_terminal.py`、`binary_passcode_terminal.cpp` 和Android应用为依据，描述实际实现，不将早期实验方案混入最终设计。V1.1统一文件名前缀为 `binary_passcode_terminal`，密文派生标签保留原有内部格式，仍与使用加密时间区及相同字符规则的旧版兼容。
+编写日期：2026年11月2日。本文以当前发布的 `binary_passcode_terminal.py`、`binary_passcode_terminal.cpp` 和Android应用为依据，描述实际实现。V1.1统一文件名前缀为 `binary_passcode_terminal`，密文派生标签保留原有内部格式，仍与使用加密时间区及相同字符规则的旧版兼容。
 
 ## 1. 系统的整体结构
 
@@ -462,9 +462,9 @@ Android APK通过JNI调用同一份C++核心，HMAC-SHA256与随机数由平台�
 
 长期共享密钥一旦泄露，持有历史密文的人可以读取相应历史消息。当前系统没有提供前向保密或自动密钥协商。
 
-### 13.5 不隐藏通信元数据，也不保证平台放行
+### 13.5 不隐藏通信元数据
 
-固定200位数字可能隐藏正文的直接自然语言内容，但并不隐藏发送者、接收者、发送时间、频率和固定格式特征。能否通过某个平台的内容审核，需要针对具体平台观察，不能由密码表复杂程度或AI样例破解结果直接推断。
+固定200位数字可能隐藏正文的直接自然语言内容，但并不隐藏发送者、接收者、发送时间、频率和固定格式特征。
 
 本系统采用成熟的HMAC原语，但外围格式和组合方式是自定义实现。功能测试能证明实现的一致性与边界处理，不能替代独立密码学安全审查。
 
@@ -480,7 +480,3 @@ Android APK通过JNI调用同一份C++核心，HMAC-SHA256与随机数由平台�
 | 封装与公开检查 | `encrypt`、`inspect_cipher`、`checksum` | 同名函数 |
 | 解密及时间显示 | `decrypt_with_time` | `decrypt_with_time`、`format_time` |
 | 本地密钥 | `load_saved_key`、`save_fixed_key` | `load_key`、`store_key` |
-
-现有验证包括630组文字编码往返、308组时间与正文往返、校验与非法输入检查，以及Windows下240组跨语言一致性测试，共1258次EXE调用。BMP扩展另外穷举了全部63488个标量值，检查Python/C++编码一致并可还原，确认87个基础字符保留短编码、其余63401个字符使用6单元转义。测试覆盖时间原点与终点、闰日、加密时间区全零、密文随机化、DPAPI文件互读和菜单操作。
-
-Linux密钥环调用通过模拟测试，尚未在真实Linux桌面会话中验证。Android JNI桥接在主机JVM上完成100组与Python互通测试，并覆盖控制字符、BMP边界、时间起止点和非法输入。APK包含ARM64、32位ARM和x86_64，已通过官方签名及16KB页对齐检查；尚未在真实手机或模拟器中验证界面及Keystore读写。上述数字描述功能测试覆盖范围，不表示系统已获得独立安全认证。
