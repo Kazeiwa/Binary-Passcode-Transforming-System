@@ -1,5 +1,5 @@
 # Binary-Passcode-Transforming-System
-A interesting passcoding system based on binary and SHA-256, while the inspiration is from a Grade 5 pupil in 2018
+A interesting passcoding system based on binary and SHA-256, while the original inspiration is from a Grade 5 pupil in 2018
 # 二进制密码转换终端 V1.1：分层原理说明
 
 编写日期：2026年11月2日。本文以当前发布的 `binary_passcode_terminal.py`、`binary_passcode_terminal.cpp` 和Android应用为依据，描述实际实现，不将早期实验方案混入最终设计。V1.1统一文件名前缀为 `binary_passcode_terminal`，密文派生标签保留原有内部格式，仍与使用加密时间区及相同字符规则的旧版兼容。
