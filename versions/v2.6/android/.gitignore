@@ -1,0 +1,8 @@
+.cache/
+.build/
+work/
+__pycache__/
+*.p12
+*.jks
+*.password
+*.apk

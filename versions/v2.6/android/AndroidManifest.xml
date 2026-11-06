@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="org.binarypasscode.image"
+    android:versionCode="27" android:versionName="2.6">
+    <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="36" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="28" />
+    <queries><intent><action android:name="android.provider.action.PICK_IMAGES" /><data android:mimeType="image/*" /></intent><intent><action android:name="android.intent.action.PICK" /><data android:mimeType="image/*" /></intent></queries>
+    <application android:label="二进制密码图片终端" android:theme="@style/AppTheme"
+        android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher"
+        android:allowBackup="false" android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="false" android:usesCleartextTraffic="false"
+        android:largeHeap="true" android:supportsRtl="true" android:debuggable="false">
+        <activity android:name=".MainActivity" android:exported="true"
+            android:configChanges="orientation|screenSize|keyboardHidden" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

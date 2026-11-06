@@ -1,0 +1,2297 @@
+[
+  {
+    "path": ".gitattributes",
+    "source": "generated",
+    "sha256": "5a053de0616dcf72ea8e49a7eb2a236351cde2926b41ccdf95dc3c79af1f3ef2"
+  },
+  {
+    "path": ".github/workflows/ios-build.yml",
+    "source": "adapted V2.6 iOS workflow for monorepo paths",
+    "sha256": "18bc2a1a882002c5e7792bb7e3d6a2bb86fe79c4f1143cb8ae495d70afb22c82"
+  },
+  {
+    "path": ".gitignore",
+    "source": "generated",
+    "sha256": "4dbff7e497593df905bce686e0f827d8aedbf2ae890128e31a871c9fa998f15d"
+  },
+  {
+    "path": "README.md",
+    "source": "generated repository index",
+    "sha256": "57ec1f32ce3d6e1d55402c3b5ab48ffd700e933984644ed359c5b7ed049d084a"
+  },
+  {
+    "path": "versions/v1.0/binary_passcode_terminal.py",
+    "source": "v1.0/binary_passcode_terminal.py",
+    "sha256": "e4510a55c2ef62f3d22e21ffed3d6b3dbc257ed2883721d87829394d0c7005d8"
+  },
+  {
+    "path": "versions/v1.0/binary_passcode_terminalV1.0/binary_passcode_terminal.py",
+    "source": "v1.0/binary_passcode_terminalV1.0/binary_passcode_terminal.py",
+    "sha256": "bd8fed488b55ecbd178cdd9624cb0263f96bb80ce04718fd2a193a7cc7e3648c"
+  },
+  {
+    "path": "versions/v1.0/binary_passcode_terminalV1.0/启动器.bat",
+    "source": "v1.0/binary_passcode_terminalV1.0/启动器.bat",
+    "sha256": "1b5c32fb90ed0bf379980f2d40ffc829b63ff6f7fad33ab3fb79adcb90fa75b9"
+  },
+  {
+    "path": "versions/v1.0/启动器.bat",
+    "source": "v1.0/启动器.bat",
+    "sha256": "1b5c32fb90ed0bf379980f2d40ffc829b63ff6f7fad33ab3fb79adcb90fa75b9"
+  },
+  {
+    "path": "versions/v1.1/CMakeLists.txt",
+    "source": "v1.1/binary_passcode_terminal_source.zip!CMakeLists.txt",
+    "sha256": "37cc4a8a544804cd7ecbd62ddcc9eca08ab65155f6819de0522b420426df15ea"
+  },
+  {
+    "path": "versions/v1.1/android/AndroidManifest.xml",
+    "source": "v1.1/binary_passcode_terminal_source.zip!android/AndroidManifest.xml",
+    "sha256": "eeca1a3aff317383de6da8a4b75516924fae5e076a9b32a135654953170532b0"
+  },
+  {
+    "path": "versions/v1.1/android/build_android.py",
+    "source": "v1.1/binary_passcode_terminal_source.zip!android/build_android.py",
+    "sha256": "f4a7809cf625dd44c882d64ffdb780560fe7100a43c687d0d0c47ca344a0cec2"
+  },
+  {
+    "path": "versions/v1.1/android/res/drawable/ic_terminal.xml",
+    "source": "v1.1/binary_passcode_terminal_source.zip!android/res/drawable/ic_terminal.xml",
+    "sha256": "2c014bd595504f6a707537253d8c1ae029d5f2e395ab9ccc14870688ef6b9b68"
+  },
+  {
+    "path": "versions/v1.1/android/res/mipmap-anydpi-v26/ic_launcher.xml",
+    "source": "v1.1/binary_passcode_terminal_source.zip!android/res/mipmap-anydpi-v26/ic_launcher.xml",
+    "sha256": "73b227cf7fdabe99c8dc5a6a3324e8b1a0f2a58dd9fb0ce123ff75433ee50008"
+  },
+  {
+    "path": "versions/v1.1/android/res/values/styles.xml",
+    "source": "v1.1/binary_passcode_terminal_source.zip!android/res/values/styles.xml",
+    "sha256": "99da356e6d9653e0166f9f4c58e18296c05692c9404b834766bb8c92377d0b9c"
+  },
+  {
+    "path": "versions/v1.1/android/res/xml/data_extraction_rules.xml",
+    "source": "v1.1/binary_passcode_terminal_source.zip!android/res/xml/data_extraction_rules.xml",
+    "sha256": "3022933b3087e342e2fa29a4fd892a24c49ebdda85dabea8bfaf9273d8a5f638"
+  },
+  {
+    "path": "versions/v1.1/android/src/org/binarypasscode/terminal/KeyStorage.java",
+    "source": "v1.1/binary_passcode_terminal_source.zip!android/src/org/binarypasscode/terminal/KeyStorage.java",
+    "sha256": "d8f487df72638e437e9cc5b52e4b0c02a9df1899520ebdbf9384490ebba7efac"
+  },
+  {
+    "path": "versions/v1.1/android/src/org/binarypasscode/terminal/MainActivity.java",
+    "source": "v1.1/binary_passcode_terminal_source.zip!android/src/org/binarypasscode/terminal/MainActivity.java",
+    "sha256": "88991db86fc98652a057f3f6dea50df4891fd03731c268bbe9bf79f5de79c4c4"
+  },
+  {
+    "path": "versions/v1.1/android/src/org/binarypasscode/terminal/NativeBridge.java",
+    "source": "v1.1/binary_passcode_terminal_source.zip!android/src/org/binarypasscode/terminal/NativeBridge.java",
+    "sha256": "649badfb967510b426090afbe71fab098faab95d5f0a7bf636faf9a6ccd2d89d"
+  },
+  {
+    "path": "versions/v1.1/binary_passcode_terminal.cpp",
+    "source": "v1.1/binary_passcode_terminal.cpp",
+    "sha256": "c284a87eb921cde8ca66c08f1d9ff4aca1879f2263c9cd717068f7cf130e6c32"
+  },
+  {
+    "path": "versions/v1.1/binary_passcode_terminal.py",
+    "source": "v1.1/binary_passcode_terminal.py",
+    "sha256": "e4510a55c2ef62f3d22e21ffed3d6b3dbc257ed2883721d87829394d0c7005d8"
+  },
+  {
+    "path": "versions/v1.1/binary_passcode_terminal.rc",
+    "source": "v1.1/binary_passcode_terminal_source.zip!binary_passcode_terminal.rc",
+    "sha256": "179e4922d8919000341948b89eac61f9d15801cbfe6eacf8b32a1eb373cc5fe5"
+  },
+  {
+    "path": "versions/v1.1/binary_passcode_terminal_android.md",
+    "source": "v1.1/binary_passcode_terminal_android.md",
+    "sha256": "eddb1ac50c8cc562b12e394cd8114349cbca937b1750025cf68f31da4edaa8fa"
+  },
+  {
+    "path": "versions/v1.1/binary_passcode_terminal_cpp_build.md",
+    "source": "v1.1/binary_passcode_terminal_source.zip!binary_passcode_terminal_cpp_build.md",
+    "sha256": "cbedef739e503f3f8309be108283a27b286d1b1f5e23c3ae1cdd0bf8d568a87d"
+  },
+  {
+    "path": "versions/v1.1/binary_passcode_terminal_notices.txt",
+    "source": "v1.1/binary_passcode_terminal_source.zip!binary_passcode_terminal_notices.txt",
+    "sha256": "08a9cb82fb0eddf2da9ab9efd503063db58030ef141b410244c86d0da4115349"
+  },
+  {
+    "path": "versions/v1.1/binary_passcode_terminal_principles.md",
+    "source": "v1.1/binary_passcode_terminal_principles.md",
+    "sha256": "d44fa28373e68c04f664b0524c07e51b039333e799535e4dd4636022ffad7485"
+  },
+  {
+    "path": "versions/v1.1/binary_passcode_terminal_time_format.md",
+    "source": "v1.1/binary_passcode_terminal_source.zip!binary_passcode_terminal_time_format.md",
+    "sha256": "d1f033187bd86acc3fa03e23885e1e97cf97bf235a1d5e42b4b6202286ac2fb8"
+  },
+  {
+    "path": "versions/v1.1/binary_passcode_terminal_usage.md",
+    "source": "v1.1/binary_passcode_terminal_usage.md",
+    "sha256": "7a9589b46df9f1f717909715c5639ca49283206e5349e100a353ea2251be8e3d"
+  },
+  {
+    "path": "versions/v1.1/启动器.bat",
+    "source": "v1.1/启动器.bat",
+    "sha256": "1b5c32fb90ed0bf379980f2d40ffc829b63ff6f7fad33ab3fb79adcb90fa75b9"
+  },
+  {
+    "path": "versions/v2.1/android/.gitignore",
+    "source": "v2.1/binary_image_passcode_android_source.zip!binary_image_passcode_android/.gitignore",
+    "sha256": "bfcd58d320cd6d44f2ec483581e88bbda7ac9ef96da20ea0e8e0a5414ac06304"
+  },
+  {
+    "path": "versions/v2.1/android/AndroidManifest.xml",
+    "source": "v2.1/binary_image_passcode_android_source.zip!binary_image_passcode_android/AndroidManifest.xml",
+    "sha256": "df00eb5667bc3564da49352094774b7260a1ed9b0b09db5529ae89258762ff5d"
+  },
+  {
+    "path": "versions/v2.1/android/BUILD.md",
+    "source": "v2.1/binary_image_passcode_android_source.zip!binary_image_passcode_android/BUILD.md",
+    "sha256": "19e188c559b6999742981bc89a8c0b02c1f15824bdfd11a58da0ebde26cbc5f5"
+  },
+  {
+    "path": "versions/v2.1/android/README.md",
+    "source": "v2.1/binary_image_passcode_android_source.zip!binary_image_passcode_android/README.md",
+    "sha256": "459de6435a0ac95fd7d40ae150da737e6ae36639917db7c76d2b118ae78aeb02"
+  },
+  {
+    "path": "versions/v2.1/android/TEST_REPORT.md",
+    "source": "v2.1/binary_image_passcode_android_source.zip!binary_image_passcode_android/TEST_REPORT.md",
+    "sha256": "be8cb35b46b9bcb3f6c67556c2568c75698c1dd267ae942f89b38c616e4da2d2"
+  },
+  {
+    "path": "versions/v2.1/android/build_android.py",
+    "source": "v2.1/binary_image_passcode_android_source.zip!binary_image_passcode_android/build_android.py",
+    "sha256": "d7eb2dba3160c273d4ac47b1e5ea109045558177c92e5a9c18d47e5b4f94bc82"
+  },
+  {
+    "path": "versions/v2.1/android/build_tools.py",
+    "source": "v2.1/binary_image_passcode_android_source.zip!binary_image_passcode_android/build_tools.py",
+    "sha256": "73c8ec5f3552cd15f074a3d70f041d26757d67ed180eab57984dc2dd136ce32d"
+  },
+  {
+    "path": "versions/v2.1/android/docs/ui_decrypt.png",
+    "source": "v2.1/binary_image_passcode_android_source.zip!binary_image_passcode_android/docs/ui_decrypt.png",
+    "sha256": "d227cb14b448e6d4e15b9a5018e12a4f19a02b0eb03fc3a3d4f2be4817858106"
+  },
+  {
+    "path": "versions/v2.1/android/docs/ui_encrypt.png",
+    "source": "v2.1/binary_image_passcode_android_source.zip!binary_image_passcode_android/docs/ui_encrypt.png",
+    "sha256": "170b55f4360cf3f31664b15e2b02e52dca94c763bde141130d169d2026188167"
+  },
+  {
+    "path": "versions/v2.1/android/docs/ui_keys.png",
+    "source": "v2.1/binary_image_passcode_android_source.zip!binary_image_passcode_android/docs/ui_keys.png",
+    "sha256": "8d9a6e3c88bf4dd5afbf188b60064e6e91d218da67762a92e32393af59dddaad"
+  },
+  {
+    "path": "versions/v2.1/android/res/drawable/ic_terminal.xml",
+    "source": "v2.1/binary_image_passcode_android_source.zip!binary_image_passcode_android/res/drawable/ic_terminal.xml",
+    "sha256": "2c014bd595504f6a707537253d8c1ae029d5f2e395ab9ccc14870688ef6b9b68"
+  },
+  {
+    "path": "versions/v2.1/android/res/mipmap-anydpi-v26/ic_launcher.xml",
+    "source": "v2.1/binary_image_passcode_android_source.zip!binary_image_passcode_android/res/mipmap-anydpi-v26/ic_launcher.xml",
+    "sha256": "73b227cf7fdabe99c8dc5a6a3324e8b1a0f2a58dd9fb0ce123ff75433ee50008"
+  },
+  {
+    "path": "versions/v2.1/android/res/values/styles.xml",
+    "source": "v2.1/binary_image_passcode_android_source.zip!binary_image_passcode_android/res/values/styles.xml",
+    "sha256": "99da356e6d9653e0166f9f4c58e18296c05692c9404b834766bb8c92377d0b9c"
+  },
+  {
+    "path": "versions/v2.1/android/res/xml/data_extraction_rules.xml",
+    "source": "v2.1/binary_image_passcode_android_source.zip!binary_image_passcode_android/res/xml/data_extraction_rules.xml",
+    "sha256": "3022933b3087e342e2fa29a4fd892a24c49ebdda85dabea8bfaf9273d8a5f638"
+  },
+  {
+    "path": "versions/v2.1/android/src/org/binarypasscode/image/Codes.java",
+    "source": "v2.1/binary_image_passcode_android_source.zip!binary_image_passcode_android/src/org/binarypasscode/image/Codes.java",
+    "sha256": "38b549ecde162d0c88dc54b96ef353776b3739f32983920f40a9937b1f88e102"
+  },
+  {
+    "path": "versions/v2.1/android/src/org/binarypasscode/image/Crypto.java",
+    "source": "v2.1/binary_image_passcode_android_source.zip!binary_image_passcode_android/src/org/binarypasscode/image/Crypto.java",
+    "sha256": "353523dfadbeec40d53aeca220313f9cdb337fcd8eeffe77f5d04a43bb49067d"
+  },
+  {
+    "path": "versions/v2.1/android/src/org/binarypasscode/image/Images.java",
+    "source": "v2.1/binary_image_passcode_android_source.zip!binary_image_passcode_android/src/org/binarypasscode/image/Images.java",
+    "sha256": "9bdc5336f1fb53ba7f0ab5878ee79941320b04d9f5e96eef1dd13fe4d2900c05"
+  },
+  {
+    "path": "versions/v2.1/android/src/org/binarypasscode/image/KeyVault.java",
+    "source": "v2.1/binary_image_passcode_android_source.zip!binary_image_passcode_android/src/org/binarypasscode/image/KeyVault.java",
+    "sha256": "df3731c27bc31e3cbe8343671acc6853a9fdea70e4aa7e9adb268cce3831b781"
+  },
+  {
+    "path": "versions/v2.1/android/src/org/binarypasscode/image/MainActivity.java",
+    "source": "v2.1/binary_image_passcode_android_source.zip!binary_image_passcode_android/src/org/binarypasscode/image/MainActivity.java",
+    "sha256": "301ea48c8c77df18426d69abbe722deb33d4b94437368bdd6c7ff71b7822b7c9"
+  },
+  {
+    "path": "versions/v2.1/android/src/org/binarypasscode/image/Shake.java",
+    "source": "v2.1/binary_image_passcode_android_source.zip!binary_image_passcode_android/src/org/binarypasscode/image/Shake.java",
+    "sha256": "93ba1d2cecff6997d0cb347285ffd4be3fdd9176b9adbba600e14f3153ae87b3"
+  },
+  {
+    "path": "versions/v2.1/android/src/org/binarypasscode/image/Transport.java",
+    "source": "v2.1/binary_image_passcode_android_source.zip!binary_image_passcode_android/src/org/binarypasscode/image/Transport.java",
+    "sha256": "6552349d0e5893bc6b05d7e3b8b45b7f515747ce20025f0a66044b256d4a6eaf"
+  },
+  {
+    "path": "versions/v2.1/android/tests/AndroidUiTest.java",
+    "source": "v2.1/binary_image_passcode_android_source.zip!binary_image_passcode_android/tests/AndroidUiTest.java",
+    "sha256": "4c5d61c6b020ec46990404d1af5587288c7e8793f099d9d2d8f3b1d3d9876447"
+  },
+  {
+    "path": "versions/v2.1/android/tests/CoreTest.java",
+    "source": "v2.1/binary_image_passcode_android_source.zip!binary_image_passcode_android/tests/CoreTest.java",
+    "sha256": "86f08aca48ca04f4cbe9c9900641fdaf3e23485c080d33ad90bec682a2745fc8"
+  },
+  {
+    "path": "versions/v2.1/android/tests/PngTest.java",
+    "source": "v2.1/binary_image_passcode_android_source.zip!binary_image_passcode_android/tests/PngTest.java",
+    "sha256": "298e1051c337ba2abeb8cba225a70da589aea6cf346d4a26e8da53762681ae9f"
+  },
+  {
+    "path": "versions/v2.1/android/tests/pom.xml",
+    "source": "v2.1/binary_image_passcode_android_source.zip!binary_image_passcode_android/tests/pom.xml",
+    "sha256": "fa11fa76282a7e68df0eb21316fe16c5c2eba537e8be242a08465c1124b21c9c"
+  },
+  {
+    "path": "versions/v2.1/android/tests/run_ui_tests.py",
+    "source": "v2.1/binary_image_passcode_android_source.zip!binary_image_passcode_android/tests/run_ui_tests.py",
+    "sha256": "5b69a361931f65079c6a1f320bcd1af41269f57e30fc08b1e9781c2fcccc8d37"
+  },
+  {
+    "path": "versions/v2.1/desktop/.gitignore",
+    "source": "v2.1/binary_image_passcode_v2.1/.gitignore",
+    "sha256": "0f2b8d8cfbc3b474ea2a336326eb7a1090e33bc304efde96c4d03298809b7be5"
+  },
+  {
+    "path": "versions/v2.1/desktop/README.md",
+    "source": "v2.1/binary_image_passcode_v2.1/README.md",
+    "sha256": "b1b78e995ace18a8a4daff8f5ef5d461a2b655468a4735b7a542ccdef06d3569"
+  },
+  {
+    "path": "versions/v2.1/desktop/THIRD_PARTY_NOTICES.md",
+    "source": "v2.1/binary_image_passcode_v2.1/THIRD_PARTY_NOTICES.md",
+    "sha256": "44a3e0962f402cce44160b12bc2c27bc178b01825081b87e60d331a154930cfc"
+  },
+  {
+    "path": "versions/v2.1/desktop/assets/binary_image_passcode.ico",
+    "source": "v2.1/binary_image_passcode_v2.1/assets/binary_image_passcode.ico",
+    "sha256": "77f5d48229ce4948415c39a70704ecf0bb0d3433137fe660cde3527d84a4f01c"
+  },
+  {
+    "path": "versions/v2.1/desktop/assets/binary_image_passcode.png",
+    "source": "v2.1/binary_image_passcode_v2.1/assets/binary_image_passcode.png",
+    "sha256": "491f9bc8f5caac7b1139b0d32015abc19f7c86190b8fe4ef4298c5a40b6ac483"
+  },
+  {
+    "path": "versions/v2.1/desktop/assets/version_info.txt",
+    "source": "v2.1/binary_image_passcode_v2.1/assets/version_info.txt",
+    "sha256": "cd61f8d31b6c5e23ee618c42a2e55336f71fe1bbc6522edcbcbb6ff42789b316"
+  },
+  {
+    "path": "versions/v2.1/desktop/binary_image_passcode.py",
+    "source": "v2.1/binary_image_passcode_v2.1/binary_image_passcode.py",
+    "sha256": "d510f0cc595fde13218b501b6465fb84cd437f8ba5e8a7fab261f3b09fea10da"
+  },
+  {
+    "path": "versions/v2.1/desktop/bip/__init__.py",
+    "source": "v2.1/binary_image_passcode_v2.1/bip/__init__.py",
+    "sha256": "b4306d8dd9e782641094da05ce39ae8d4920195cf41ee4c4b79e09710659a8bb"
+  },
+  {
+    "path": "versions/v2.1/desktop/bip/codec.py",
+    "source": "v2.1/binary_image_passcode_v2.1/bip/codec.py",
+    "sha256": "9b78d5e14373d15d2624ca1bb8bb2756f888df4ba4575b38aa95c4bfb7d91df2"
+  },
+  {
+    "path": "versions/v2.1/desktop/bip/erasure.py",
+    "source": "v2.1/binary_image_passcode_v2.1/bip/erasure.py",
+    "sha256": "cd57692bdd7038cab89297505778cf424c9222f44dff0e0aee60844af0741d75"
+  },
+  {
+    "path": "versions/v2.1/desktop/bip/errors.py",
+    "source": "v2.1/binary_image_passcode_v2.1/bip/errors.py",
+    "sha256": "461a191cdf50862c0d44a7e7a2efb810ed8c1ee1888e143c4db1d39ef413c4ae"
+  },
+  {
+    "path": "versions/v2.1/desktop/bip/gui.py",
+    "source": "v2.1/binary_image_passcode_v2.1/bip/gui.py",
+    "sha256": "c7f68e732e53ed93eb4764e1441cc1ec9c8cf3df438a6acf2658cde2486b568b"
+  },
+  {
+    "path": "versions/v2.1/desktop/bip/image_transport.py",
+    "source": "v2.1/binary_image_passcode_v2.1/bip/image_transport.py",
+    "sha256": "723cffff8a60816efaf7153ed6f4d4684063222357a45c39b39731e902b94af8"
+  },
+  {
+    "path": "versions/v2.1/desktop/bip/legacy20/__init__.py",
+    "source": "v2.1/binary_image_passcode_v2.1/bip/legacy20/__init__.py",
+    "sha256": "868bd1c3b8eee4037cfefae8a936820332f3f2587efabbe42bb3299e4f6678c4"
+  },
+  {
+    "path": "versions/v2.1/desktop/bip/legacy20/codec.py",
+    "source": "v2.1/binary_image_passcode_v2.1/bip/legacy20/codec.py",
+    "sha256": "45eee74afebe80a115639421b8def4363aceee5473ed649cf464cd809873a70b"
+  },
+  {
+    "path": "versions/v2.1/desktop/bip/legacy20/image_transport.py",
+    "source": "v2.1/binary_image_passcode_v2.1/bip/legacy20/image_transport.py",
+    "sha256": "5bc1536b68875b029c7665bbb4c504abf4fcece013d88f68e1bbd6f4dfe862e8"
+  },
+  {
+    "path": "versions/v2.1/desktop/bip/legacy20/protocol.py",
+    "source": "v2.1/binary_image_passcode_v2.1/bip/legacy20/protocol.py",
+    "sha256": "38c7d65b973e1084a3a4386b9d65bea7b825cd00ff9d4cfce9b999d5d93a9e12"
+  },
+  {
+    "path": "versions/v2.1/desktop/bip/protocol.py",
+    "source": "v2.1/binary_image_passcode_v2.1/bip/protocol.py",
+    "sha256": "66431a4728afdeb3e4191cc1ea41731aa311b02acec7ed34f5983d89e847e930"
+  },
+  {
+    "path": "versions/v2.1/desktop/bip/vault.py",
+    "source": "v2.1/binary_image_passcode_v2.1/bip/vault.py",
+    "sha256": "b0e263ed1bb64532144683069c75d44117059bced039d6e4fb4e9e117ed1d6c4"
+  },
+  {
+    "path": "versions/v2.1/desktop/build_windows.py",
+    "source": "v2.1/binary_image_passcode_v2.1/build_windows.py",
+    "sha256": "e8745139a52abe788e41042356bf9c7423c27b51adade6cd95350eab145ec47f"
+  },
+  {
+    "path": "versions/v2.1/desktop/docs/ARCHITECTURE.md",
+    "source": "v2.1/binary_image_passcode_v2.1/docs/ARCHITECTURE.md",
+    "sha256": "67b29c8aa1a228ad6de6cd54200db572e785dbd352bbd7420a314f6a1ed1c390"
+  },
+  {
+    "path": "versions/v2.1/desktop/docs/CHANGELOG.md",
+    "source": "v2.1/binary_image_passcode_v2.1/docs/CHANGELOG.md",
+    "sha256": "7b96195559af61b2c72cdb4b7f56bd2cbbdb5e905f20e6e838eb3b6e9ee6a21a"
+  },
+  {
+    "path": "versions/v2.1/desktop/docs/TEST_REPORT.md",
+    "source": "v2.1/binary_image_passcode_v2.1/docs/TEST_REPORT.md",
+    "sha256": "df9ed945c784651858ba5e6e4d3dd0f509ccfd5141c7a515627a72bfa6e87e77"
+  },
+  {
+    "path": "versions/v2.1/desktop/docs/ui_decrypt.png",
+    "source": "v2.1/binary_image_passcode_v2.1/docs/ui_decrypt.png",
+    "sha256": "f967e3bba133c5e98fabedbfa2f6c71aec9e2cd93ecd8de543fad44a9d202920"
+  },
+  {
+    "path": "versions/v2.1/desktop/docs/ui_encrypt.png",
+    "source": "v2.1/binary_image_passcode_v2.1/docs/ui_encrypt.png",
+    "sha256": "8f8aef18df0ca9a481795bc1b126e36e6f1e9c95a0068dbae57437daf2f6de66"
+  },
+  {
+    "path": "versions/v2.1/desktop/docs/ui_keys.png",
+    "source": "v2.1/binary_image_passcode_v2.1/docs/ui_keys.png",
+    "sha256": "2140681d9b98f855460d1b4d5a862b6ad59200c15ed53655fa8719bb6a07a47a"
+  },
+  {
+    "path": "versions/v2.1/desktop/docs/ui_windows_exe.png",
+    "source": "v2.1/binary_image_passcode_v2.1/docs/ui_windows_exe.png",
+    "sha256": "2486b8895cd6cd73166d0c0c7f7b4f64874d82a9b8e1173160870d8a16a9a3fe"
+  },
+  {
+    "path": "versions/v2.1/desktop/examples/README.md",
+    "source": "v2.1/binary_image_passcode_v2.1/examples/README.md",
+    "sha256": "b7c5e11c419bd8a6d2ec9a68e2852e40136efa934c5e03b67e6010d61070318c"
+  },
+  {
+    "path": "versions/v2.1/desktop/examples/demo_cover.png",
+    "source": "v2.1/binary_image_passcode_v2.1/examples/demo_cover.png",
+    "sha256": "e8b8fe37067c94a3e09a0a123cc33ee7c8ea2170e7b4c6b02e959432107b8ab7"
+  },
+  {
+    "path": "versions/v2.1/desktop/examples/demo_cropped.png",
+    "source": "v2.1/binary_image_passcode_v2.1/examples/demo_cropped.png",
+    "sha256": "f3f98dbc954402616269b465884e6ffbcfa1bfcd707a3746143fa56a96f17c72"
+  },
+  {
+    "path": "versions/v2.1/desktop/examples/demo_encoded.png",
+    "source": "v2.1/binary_image_passcode_v2.1/examples/demo_encoded.png",
+    "sha256": "47075b21703a86a61f6718a664d23d13f7da24e264f3f34215eacc23b34b4a0f"
+  },
+  {
+    "path": "versions/v2.1/desktop/examples/demo_message.txt",
+    "source": "v2.1/binary_image_passcode_v2.1/examples/demo_message.txt",
+    "sha256": "2049e5b62e547ecfc930b854fc852be3d65863083f5c5d076d4b7376dd4f695a"
+  },
+  {
+    "path": "versions/v2.1/desktop/examples/v20/demo_cropped.png",
+    "source": "v2.1/binary_image_passcode_v2.1/examples/v20/demo_cropped.png",
+    "sha256": "dbb816341513f00b0ed38c29bfcd975d991f7eb27341f09f3fea8cd6e7ec9638"
+  },
+  {
+    "path": "versions/v2.1/desktop/examples/v20/demo_encoded.png",
+    "source": "v2.1/binary_image_passcode_v2.1/examples/v20/demo_encoded.png",
+    "sha256": "4c153fdd51a8c65ccdc0efea5cdb9c4506b3bff9778723f99ef90f34d3614585"
+  },
+  {
+    "path": "versions/v2.1/desktop/examples/v20/demo_message.txt",
+    "source": "v2.1/binary_image_passcode_v2.1/examples/v20/demo_message.txt",
+    "sha256": "2049e5b62e547ecfc930b854fc852be3d65863083f5c5d076d4b7376dd4f695a"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/Pillow/LICENSE",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/Pillow/LICENSE",
+    "sha256": "988ffe8ab3480b0f4e9a0ab2702bffd73d9fb6b47198043fb3ba101a62fac236"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/Pillow/pillow-13.0.0.dist-info_licenses_LICENSE",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/Pillow/pillow-13.0.0.dist-info_licenses_LICENSE",
+    "sha256": "988ffe8ab3480b0f4e9a0ab2702bffd73d9fb6b47198043fb3ba101a62fac236"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/Python-LICENSE.txt",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/Python-LICENSE.txt",
+    "sha256": "935cf13e19f8c31b497d20b05d73623431a226b230c3599bc30fa3348979bc68"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/TCL-license.terms",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/TCL-license.terms",
+    "sha256": "c0a69a2bfd757361ec7e6143973b103c90409316b49e9c88db26ad6388e79f16"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/TK-license.terms",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/TK-license.terms",
+    "sha256": "2cde822b93ca16ae535c954b7dfe658b4ad10df2a193628d1b358f1765e8b198"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/TclTk-demos-license.terms",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/TclTk-demos-license.terms",
+    "sha256": "0d1e4405f6273f091732764ed89b57066be63ce64869be6c71ea337dc4f2f9b5"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/cffi/LICENSE",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/cffi/LICENSE",
+    "sha256": "5ba24ddc57067f9249add644c3afc41a5d6dc37e23433ef759d95df370b0af63"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/cffi/cffi-2.1.1.dist-info_licenses_LICENSE",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/cffi/cffi-2.1.1.dist-info_licenses_LICENSE",
+    "sha256": "5ba24ddc57067f9249add644c3afc41a5d6dc37e23433ef759d95df370b0af63"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/cryptography/LICENSE",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/cryptography/LICENSE",
+    "sha256": "3e0c7c091a948b82533ba98fd7cbb40432d6f1a9acbf85f5922d2f99a93ae6bb"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/cryptography/LICENSE.APACHE",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/cryptography/LICENSE.APACHE",
+    "sha256": "aac73b3148f6d1d7111dbca32099f68d26c644c6813ae1e4f05f6579aa2663fe"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/cryptography/LICENSE.BSD",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/cryptography/LICENSE.BSD",
+    "sha256": "602c4c7482de6479dd2e9793cda275e5e63d773dacd1eca689232ab7008fb4fb"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/cryptography/cryptography-50.0.2.dist-info_licenses_LICENSE",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/cryptography/cryptography-50.0.2.dist-info_licenses_LICENSE",
+    "sha256": "3e0c7c091a948b82533ba98fd7cbb40432d6f1a9acbf85f5922d2f99a93ae6bb"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/cryptography/cryptography-50.0.2.dist-info_licenses_LICENSE.APACHE",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/cryptography/cryptography-50.0.2.dist-info_licenses_LICENSE.APACHE",
+    "sha256": "aac73b3148f6d1d7111dbca32099f68d26c644c6813ae1e4f05f6579aa2663fe"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/cryptography/cryptography-50.0.2.dist-info_licenses_LICENSE.BSD",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/cryptography/cryptography-50.0.2.dist-info_licenses_LICENSE.BSD",
+    "sha256": "602c4c7482de6479dd2e9793cda275e5e63d773dacd1eca689232ab7008fb4fb"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/numpy/COPYING",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/numpy/COPYING",
+    "sha256": "aea41976c720f91bd19725c16916a1ace40eb1ea42620d340e587a5de4bbcea0"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/numpy/LICENSE",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/numpy/LICENSE",
+    "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/numpy/LICENSE.md",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/numpy/LICENSE.md",
+    "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/numpy/LICENSE.txt",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/numpy/LICENSE.txt",
+    "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/numpy/dragon4_LICENSE.txt",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/numpy/dragon4_LICENSE.txt",
+    "sha256": "b0fd592d4ead563148e3977e7b589169d46a5ef2ff133c755a81af880a3fc919"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_LICENSE.txt",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/numpy/numpy-2.5.4.dist-info_licenses_LICENSE.txt",
+    "sha256": "a804dff0ead9fadc5293456410bcbfc32bf024be9c4513459663fb7b442d2341"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_include_numpy_libdivide_LICENSE.txt",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_include_numpy_libdivide_LICENSE.txt",
+    "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_src_common_pythoncapi-compat_COPYING",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_src_common_pythoncapi-compat_COPYING",
+    "sha256": "aea41976c720f91bd19725c16916a1ace40eb1ea42620d340e587a5de4bbcea0"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_src_highway_LICENSE",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_src_highway_LICENSE",
+    "sha256": "d208152e2777ffd0126eacc1bd21c0320d69e4e6b622d21a2a12a47e8ef73763"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_src_multiarray_dragon4_LICENSE.txt",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_src_multiarray_dragon4_LICENSE.txt",
+    "sha256": "b0fd592d4ead563148e3977e7b589169d46a5ef2ff133c755a81af880a3fc919"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_src_npysort_x86-simd-sort_LICENSE.md",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_src_npysort_x86-simd-sort_LICENSE.md",
+    "sha256": "a732977853530066790c42817087f4829b518dd98d340c916acbfd227e39d3cb"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_src_umath_svml_LICENSE",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_src_umath_svml_LICENSE",
+    "sha256": "585483905b13d4b42f800c55ba99e89d6e2e33ccd5f503e201c07531d148ff41"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_fft_pocketfft_LICENSE.md",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_fft_pocketfft_LICENSE.md",
+    "sha256": "8db000e158c162e7249787852d8c69764706502ccee725c06641b31c1e95c8af"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_linalg_lapack_lite_LICENSE.txt",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_linalg_lapack_lite_LICENSE.txt",
+    "sha256": "19060ef465e1797d682ee0fc3081bd25ab1395e995e43d25c9d13c95d9a3cd6b"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_ma_LICENSE",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_ma_LICENSE",
+    "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_LICENSE.md",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_LICENSE.md",
+    "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_distributions_LICENSE.md",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_distributions_LICENSE.md",
+    "sha256": "cf5619f25b112d5ce7c896efffc8e610bcb345dfadcc19f2c1460aa48fff2c9e"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_mt19937_LICENSE.md",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_mt19937_LICENSE.md",
+    "sha256": "92c10699884321f1c2947fe2a70ab23b0fbf1507f756d89dd08f38c61fc3d4fa"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_pcg64_LICENSE.md",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_pcg64_LICENSE.md",
+    "sha256": "41190663b77bee5302386495a07b7eabfbfa571aa0ae2f11da6764162062fc4f"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_philox_LICENSE.md",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_philox_LICENSE.md",
+    "sha256": "322ac46d870c8aeead6c53adcccc839296fb3c8e456eae155081297daf7f8013"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_sfc64_LICENSE.md",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_sfc64_LICENSE.md",
+    "sha256": "28cad82ce1379dc529df30da78ec012d7d0d1d576b03ddcb93388aee53659f59"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_splitmix64_LICENSE.md",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_splitmix64_LICENSE.md",
+    "sha256": "454ec7350e478e037061850b67395753b425b1cb0a34bbc26290b020bf89d763"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/numpy/numpy__core_include_numpy_random_LICENSE.txt",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/numpy/numpy__core_include_numpy_random_LICENSE.txt",
+    "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/numpy/numpy_ma_LICENSE",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/numpy/numpy_ma_LICENSE",
+    "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/numpy/numpy_random_LICENSE.md",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/numpy/numpy_random_LICENSE.md",
+    "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/pycparser/LICENSE",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/pycparser/LICENSE",
+    "sha256": "0a9e78156ae8b96caf1b4f11ac2df424b83de29736f9e757630548a6272fdf90"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/pycparser/pycparser-3.12.dist-info_licenses_LICENSE",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/pycparser/pycparser-3.12.dist-info_licenses_LICENSE",
+    "sha256": "0a9e78156ae8b96caf1b4f11ac2df424b83de29736f9e757630548a6272fdf90"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/pyinstaller/COPYING.txt",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/pyinstaller/COPYING.txt",
+    "sha256": "0598064c7d2718e38d7914a7d08343b2fa008e3bea9ebba2aa7a6ffa5900dd64"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/pyinstaller/pyinstaller-6.22.3.dist-info_licenses_COPYING.txt",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/pyinstaller/pyinstaller-6.22.3.dist-info_licenses_COPYING.txt",
+    "sha256": "0598064c7d2718e38d7914a7d08343b2fa008e3bea9ebba2aa7a6ffa5900dd64"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/reedsolo/LICENSE",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/reedsolo/LICENSE",
+    "sha256": "2da9536c23b72bac15603bb1f8dbf269dc68ecfbc35a75f8d0aa9cb209ba0934"
+  },
+  {
+    "path": "versions/v2.1/desktop/licenses/reedsolo/reedsolo-1.7.0.dist-info_LICENSE",
+    "source": "v2.1/binary_image_passcode_v2.1/licenses/reedsolo/reedsolo-1.7.0.dist-info_LICENSE",
+    "sha256": "2da9536c23b72bac15603bb1f8dbf269dc68ecfbc35a75f8d0aa9cb209ba0934"
+  },
+  {
+    "path": "versions/v2.1/desktop/pyproject.toml",
+    "source": "v2.1/binary_image_passcode_v2.1/pyproject.toml",
+    "sha256": "027e8cca428fd79f9c1114c76e63d7987cf1b20575ebc47a81d0f5770ec00930"
+  },
+  {
+    "path": "versions/v2.1/desktop/requirements-dev.txt",
+    "source": "v2.1/binary_image_passcode_v2.1/requirements-dev.txt",
+    "sha256": "8636f9ab1a075be9f3039e2a6471837259c4f36b625bcaf7a3d9a1edd2419c6d"
+  },
+  {
+    "path": "versions/v2.1/desktop/requirements.txt",
+    "source": "v2.1/binary_image_passcode_v2.1/requirements.txt",
+    "sha256": "52c9613d4eb974c28ed77eca4cb3d0dd65148048ec8271dc97fd649652804a36"
+  },
+  {
+    "path": "versions/v2.1/desktop/run_linux.sh",
+    "source": "v2.1/binary_image_passcode_v2.1/run_linux.sh",
+    "sha256": "a38137f6ed52d7f935f54892053d9ba63ac883f55dd699a0317a6c57601ec3cd"
+  },
+  {
+    "path": "versions/v2.1/desktop/run_windows.bat",
+    "source": "v2.1/binary_image_passcode_v2.1/run_windows.bat",
+    "sha256": "b2c6c6dbfe1f7a70f95d5f24c326b6d396034c8312dcbbb8cd6509ceed47d5cf"
+  },
+  {
+    "path": "versions/v2.1/desktop/tests/conftest.py",
+    "source": "v2.1/binary_image_passcode_v2.1/tests/conftest.py",
+    "sha256": "33aefaf7de26784040993f95b48c7c80a0d88a6de527a9badf8aaa45fde868e9"
+  },
+  {
+    "path": "versions/v2.1/desktop/tests/test_cli.py",
+    "source": "v2.1/binary_image_passcode_v2.1/tests/test_cli.py",
+    "sha256": "4a16cb6997a29d9a7514b9806ca042c10d73dd53041c50fad0b90f5ef40a7050"
+  },
+  {
+    "path": "versions/v2.1/desktop/tests/test_codec_protocol.py",
+    "source": "v2.1/binary_image_passcode_v2.1/tests/test_codec_protocol.py",
+    "sha256": "0e9e8d104615ac9c72b87520448178d3401051f0882833be7f894408486c5467"
+  },
+  {
+    "path": "versions/v2.1/desktop/tests/test_erasure_images.py",
+    "source": "v2.1/binary_image_passcode_v2.1/tests/test_erasure_images.py",
+    "sha256": "fb952f396b64b0c84b85de5275105ead27206b2e8b8f064d0edf89912d147a72"
+  },
+  {
+    "path": "versions/v2.1/desktop/tests/test_gui.py",
+    "source": "v2.1/binary_image_passcode_v2.1/tests/test_gui.py",
+    "sha256": "15cdeafce275c08f67f6cf7c0c966d337a38cc82270db6d9c6c8e38721e68e7e"
+  },
+  {
+    "path": "versions/v2.1/desktop/tests/test_large_images.py",
+    "source": "v2.1/binary_image_passcode_v2.1/tests/test_large_images.py",
+    "sha256": "793efee5cdf8324d957a5f51ea5566c4ccad3ae657bc9baec1cd8a173ebe726a"
+  },
+  {
+    "path": "versions/v2.1/desktop/tests/test_vault.py",
+    "source": "v2.1/binary_image_passcode_v2.1/tests/test_vault.py",
+    "sha256": "8fb6dc305980a5add402e86374ef324c7cc1f6cb804934be000ddf8a45cee28e"
+  },
+  {
+    "path": "versions/v2.5/desktop/.gitignore",
+    "source": "v2.5/binary_image_passcode_v2.5/.gitignore",
+    "sha256": "0f2b8d8cfbc3b474ea2a336326eb7a1090e33bc304efde96c4d03298809b7be5"
+  },
+  {
+    "path": "versions/v2.5/desktop/README.md",
+    "source": "v2.5/binary_image_passcode_v2.5/README.md",
+    "sha256": "d98cf7ca56910eadd4b3a44d93d67398de559ac81ddf4421e90adf629d9ee404"
+  },
+  {
+    "path": "versions/v2.5/desktop/README_DEVELOPER.md",
+    "source": "v2.5/binary_image_passcode_v2.5/README_DEVELOPER.md",
+    "sha256": "3340190ab28a4139751e976013211943110dafc33b1b8009442860f166f6ddcc"
+  },
+  {
+    "path": "versions/v2.5/desktop/README_DEVELOPER_V2.1.md",
+    "source": "v2.5/binary_image_passcode_v2.5/README_DEVELOPER_V2.1.md",
+    "sha256": "99ee78e736cd7d84c8524418c8beda7f1c90259f9b59d32987e5b3975ed7afd9"
+  },
+  {
+    "path": "versions/v2.5/desktop/README_V2.1.md",
+    "source": "v2.5/binary_image_passcode_v2.5/README_V2.1.md",
+    "sha256": "f090e2c084856def8025d420c2322f8efcc3ae5c9495ec14d65524497189aea0"
+  },
+  {
+    "path": "versions/v2.5/desktop/THIRD_PARTY_NOTICES.md",
+    "source": "v2.5/binary_image_passcode_v2.5/THIRD_PARTY_NOTICES.md",
+    "sha256": "44a3e0962f402cce44160b12bc2c27bc178b01825081b87e60d331a154930cfc"
+  },
+  {
+    "path": "versions/v2.5/desktop/assets/binary_image_passcode.ico",
+    "source": "v2.5/binary_image_passcode_v2.5/assets/binary_image_passcode.ico",
+    "sha256": "77f5d48229ce4948415c39a70704ecf0bb0d3433137fe660cde3527d84a4f01c"
+  },
+  {
+    "path": "versions/v2.5/desktop/assets/binary_image_passcode.png",
+    "source": "v2.5/binary_image_passcode_v2.5/assets/binary_image_passcode.png",
+    "sha256": "491f9bc8f5caac7b1139b0d32015abc19f7c86190b8fe4ef4298c5a40b6ac483"
+  },
+  {
+    "path": "versions/v2.5/desktop/assets/version_info.txt",
+    "source": "v2.5/binary_image_passcode_v2.5/assets/version_info.txt",
+    "sha256": "7cf71a16616b0713b1cc56818d5a5d02bfb98b607c43d668fc4050ee037b4346"
+  },
+  {
+    "path": "versions/v2.5/desktop/binary_image_passcode.py",
+    "source": "v2.5/binary_image_passcode_v2.5/binary_image_passcode.py",
+    "sha256": "5847ea6b9908b429a4bbc5cfd66fbbd896da6fc8523fe1b3769848c9f5e41713"
+  },
+  {
+    "path": "versions/v2.5/desktop/bip/__init__.py",
+    "source": "v2.5/binary_image_passcode_v2.5/bip/__init__.py",
+    "sha256": "3ee33c6eabe82950a7e0e72b625a6c99c1222c3999e74c765c385b3f0fd6c118"
+  },
+  {
+    "path": "versions/v2.5/desktop/bip/codec.py",
+    "source": "v2.5/binary_image_passcode_v2.5/bip/codec.py",
+    "sha256": "9b78d5e14373d15d2624ca1bb8bb2756f888df4ba4575b38aa95c4bfb7d91df2"
+  },
+  {
+    "path": "versions/v2.5/desktop/bip/erasure.py",
+    "source": "v2.5/binary_image_passcode_v2.5/bip/erasure.py",
+    "sha256": "cd57692bdd7038cab89297505778cf424c9222f44dff0e0aee60844af0741d75"
+  },
+  {
+    "path": "versions/v2.5/desktop/bip/errors.py",
+    "source": "v2.5/binary_image_passcode_v2.5/bip/errors.py",
+    "sha256": "461a191cdf50862c0d44a7e7a2efb810ed8c1ee1888e143c4db1d39ef413c4ae"
+  },
+  {
+    "path": "versions/v2.5/desktop/bip/gui.py",
+    "source": "v2.5/binary_image_passcode_v2.5/bip/gui.py",
+    "sha256": "2ce3a40081f4dc6b772956eda119cdb5abee5025758f6f5f26eca2756b458e8e"
+  },
+  {
+    "path": "versions/v2.5/desktop/bip/image_payload.py",
+    "source": "v2.5/binary_image_passcode_v2.5/bip/image_payload.py",
+    "sha256": "ee69a20181d228fe4d99481d185496e39f42f36c8caa8cc3b27612d48e7dad6d"
+  },
+  {
+    "path": "versions/v2.5/desktop/bip/image_transport.py",
+    "source": "v2.5/binary_image_passcode_v2.5/bip/image_transport.py",
+    "sha256": "817c169f79aa101bb7286811bac44615e788854ed60774377b6aae65945bc4e3"
+  },
+  {
+    "path": "versions/v2.5/desktop/bip/legacy20/__init__.py",
+    "source": "v2.5/binary_image_passcode_v2.5/bip/legacy20/__init__.py",
+    "sha256": "868bd1c3b8eee4037cfefae8a936820332f3f2587efabbe42bb3299e4f6678c4"
+  },
+  {
+    "path": "versions/v2.5/desktop/bip/legacy20/codec.py",
+    "source": "v2.5/binary_image_passcode_v2.5/bip/legacy20/codec.py",
+    "sha256": "45eee74afebe80a115639421b8def4363aceee5473ed649cf464cd809873a70b"
+  },
+  {
+    "path": "versions/v2.5/desktop/bip/legacy20/image_transport.py",
+    "source": "v2.5/binary_image_passcode_v2.5/bip/legacy20/image_transport.py",
+    "sha256": "5bc1536b68875b029c7665bbb4c504abf4fcece013d88f68e1bbd6f4dfe862e8"
+  },
+  {
+    "path": "versions/v2.5/desktop/bip/legacy20/protocol.py",
+    "source": "v2.5/binary_image_passcode_v2.5/bip/legacy20/protocol.py",
+    "sha256": "38c7d65b973e1084a3a4386b9d65bea7b825cd00ff9d4cfce9b999d5d93a9e12"
+  },
+  {
+    "path": "versions/v2.5/desktop/bip/protocol.py",
+    "source": "v2.5/binary_image_passcode_v2.5/bip/protocol.py",
+    "sha256": "66431a4728afdeb3e4191cc1ea41731aa311b02acec7ed34f5983d89e847e930"
+  },
+  {
+    "path": "versions/v2.5/desktop/bip/vault.py",
+    "source": "v2.5/binary_image_passcode_v2.5/bip/vault.py",
+    "sha256": "b0e263ed1bb64532144683069c75d44117059bced039d6e4fb4e9e117ed1d6c4"
+  },
+  {
+    "path": "versions/v2.5/desktop/build_windows.py",
+    "source": "v2.5/binary_image_passcode_v2.5/build_windows.py",
+    "sha256": "e8745139a52abe788e41042356bf9c7423c27b51adade6cd95350eab145ec47f"
+  },
+  {
+    "path": "versions/v2.5/desktop/docs/ARCHITECTURE.md",
+    "source": "v2.5/binary_image_passcode_v2.5/docs/ARCHITECTURE.md",
+    "sha256": "15b59ae069c496d812987d8156a18d5dac25603efc501206f30683cc5e4705f9"
+  },
+  {
+    "path": "versions/v2.5/desktop/docs/CHANGELOG.md",
+    "source": "v2.5/binary_image_passcode_v2.5/docs/CHANGELOG.md",
+    "sha256": "7b96195559af61b2c72cdb4b7f56bd2cbbdb5e905f20e6e838eb3b6e9ee6a21a"
+  },
+  {
+    "path": "versions/v2.5/desktop/docs/CHANGELOG_V2.5.md",
+    "source": "v2.5/binary_image_passcode_v2.5/docs/CHANGELOG_V2.5.md",
+    "sha256": "290a67f4377b0b35e6293a106409af5b47b3e00d200982f26c64f8e35ecd102c"
+  },
+  {
+    "path": "versions/v2.5/desktop/docs/TEST_REPORT.md",
+    "source": "v2.5/binary_image_passcode_v2.5/docs/TEST_REPORT.md",
+    "sha256": "0f695d9253c264e3dbce60df966532a6913436836746852120efe8e584093dd0"
+  },
+  {
+    "path": "versions/v2.5/desktop/docs/TEST_REPORT_V2.1.md",
+    "source": "v2.5/binary_image_passcode_v2.5/docs/TEST_REPORT_V2.1.md",
+    "sha256": "df9ed945c784651858ba5e6e4d3dd0f509ccfd5141c7a515627a72bfa6e87e77"
+  },
+  {
+    "path": "versions/v2.5/desktop/docs/ui_decrypt.png",
+    "source": "v2.5/binary_image_passcode_v2.5/docs/ui_decrypt.png",
+    "sha256": "f967e3bba133c5e98fabedbfa2f6c71aec9e2cd93ecd8de543fad44a9d202920"
+  },
+  {
+    "path": "versions/v2.5/desktop/docs/ui_encrypt.png",
+    "source": "v2.5/binary_image_passcode_v2.5/docs/ui_encrypt.png",
+    "sha256": "8f8aef18df0ca9a481795bc1b126e36e6f1e9c95a0068dbae57437daf2f6de66"
+  },
+  {
+    "path": "versions/v2.5/desktop/docs/ui_image_decrypt.png",
+    "source": "v2.5/binary_image_passcode_v2.5/docs/ui_image_decrypt.png",
+    "sha256": "ad40e72962a6980d9155f18541c4f86b51de23c8958bc9d937399f0375c18ebb"
+  },
+  {
+    "path": "versions/v2.5/desktop/docs/ui_image_encrypt.png",
+    "source": "v2.5/binary_image_passcode_v2.5/docs/ui_image_encrypt.png",
+    "sha256": "0ee5cd199d0bcf3dd694ef61480e3047e9dad53e22bce9eceb6bc752b0d05072"
+  },
+  {
+    "path": "versions/v2.5/desktop/docs/ui_keys.png",
+    "source": "v2.5/binary_image_passcode_v2.5/docs/ui_keys.png",
+    "sha256": "2140681d9b98f855460d1b4d5a862b6ad59200c15ed53655fa8719bb6a07a47a"
+  },
+  {
+    "path": "versions/v2.5/desktop/docs/ui_windows_exe.png",
+    "source": "v2.5/binary_image_passcode_v2.5/docs/ui_windows_exe.png",
+    "sha256": "6bc941e7531eaf560b388353cac1c171e76d341acdd35d496d72657e2af44e75"
+  },
+  {
+    "path": "versions/v2.5/desktop/examples/README.md",
+    "source": "v2.5/binary_image_passcode_v2.5/examples/README.md",
+    "sha256": "b7c5e11c419bd8a6d2ec9a68e2852e40136efa934c5e03b67e6010d61070318c"
+  },
+  {
+    "path": "versions/v2.5/desktop/examples/demo_cover.png",
+    "source": "v2.5/binary_image_passcode_v2.5/examples/demo_cover.png",
+    "sha256": "e8b8fe37067c94a3e09a0a123cc33ee7c8ea2170e7b4c6b02e959432107b8ab7"
+  },
+  {
+    "path": "versions/v2.5/desktop/examples/demo_cropped.png",
+    "source": "v2.5/binary_image_passcode_v2.5/examples/demo_cropped.png",
+    "sha256": "f3f98dbc954402616269b465884e6ffbcfa1bfcd707a3746143fa56a96f17c72"
+  },
+  {
+    "path": "versions/v2.5/desktop/examples/demo_encoded.png",
+    "source": "v2.5/binary_image_passcode_v2.5/examples/demo_encoded.png",
+    "sha256": "47075b21703a86a61f6718a664d23d13f7da24e264f3f34215eacc23b34b4a0f"
+  },
+  {
+    "path": "versions/v2.5/desktop/examples/demo_message.txt",
+    "source": "v2.5/binary_image_passcode_v2.5/examples/demo_message.txt",
+    "sha256": "2049e5b62e547ecfc930b854fc852be3d65863083f5c5d076d4b7376dd4f695a"
+  },
+  {
+    "path": "versions/v2.5/desktop/examples/v20/demo_cropped.png",
+    "source": "v2.5/binary_image_passcode_v2.5/examples/v20/demo_cropped.png",
+    "sha256": "dbb816341513f00b0ed38c29bfcd975d991f7eb27341f09f3fea8cd6e7ec9638"
+  },
+  {
+    "path": "versions/v2.5/desktop/examples/v20/demo_encoded.png",
+    "source": "v2.5/binary_image_passcode_v2.5/examples/v20/demo_encoded.png",
+    "sha256": "4c153fdd51a8c65ccdc0efea5cdb9c4506b3bff9778723f99ef90f34d3614585"
+  },
+  {
+    "path": "versions/v2.5/desktop/examples/v20/demo_message.txt",
+    "source": "v2.5/binary_image_passcode_v2.5/examples/v20/demo_message.txt",
+    "sha256": "2049e5b62e547ecfc930b854fc852be3d65863083f5c5d076d4b7376dd4f695a"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/Pillow/LICENSE",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/Pillow/LICENSE",
+    "sha256": "988ffe8ab3480b0f4e9a0ab2702bffd73d9fb6b47198043fb3ba101a62fac236"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/Pillow/pillow-13.0.0.dist-info_licenses_LICENSE",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/Pillow/pillow-13.0.0.dist-info_licenses_LICENSE",
+    "sha256": "988ffe8ab3480b0f4e9a0ab2702bffd73d9fb6b47198043fb3ba101a62fac236"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/Python-LICENSE.txt",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/Python-LICENSE.txt",
+    "sha256": "935cf13e19f8c31b497d20b05d73623431a226b230c3599bc30fa3348979bc68"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/TCL-license.terms",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/TCL-license.terms",
+    "sha256": "c0a69a2bfd757361ec7e6143973b103c90409316b49e9c88db26ad6388e79f16"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/TK-license.terms",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/TK-license.terms",
+    "sha256": "2cde822b93ca16ae535c954b7dfe658b4ad10df2a193628d1b358f1765e8b198"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/TclTk-demos-license.terms",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/TclTk-demos-license.terms",
+    "sha256": "0d1e4405f6273f091732764ed89b57066be63ce64869be6c71ea337dc4f2f9b5"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/cffi/LICENSE",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/cffi/LICENSE",
+    "sha256": "5ba24ddc57067f9249add644c3afc41a5d6dc37e23433ef759d95df370b0af63"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/cffi/cffi-2.1.1.dist-info_licenses_LICENSE",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/cffi/cffi-2.1.1.dist-info_licenses_LICENSE",
+    "sha256": "5ba24ddc57067f9249add644c3afc41a5d6dc37e23433ef759d95df370b0af63"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/cryptography/LICENSE",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/cryptography/LICENSE",
+    "sha256": "3e0c7c091a948b82533ba98fd7cbb40432d6f1a9acbf85f5922d2f99a93ae6bb"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/cryptography/LICENSE.APACHE",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/cryptography/LICENSE.APACHE",
+    "sha256": "aac73b3148f6d1d7111dbca32099f68d26c644c6813ae1e4f05f6579aa2663fe"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/cryptography/LICENSE.BSD",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/cryptography/LICENSE.BSD",
+    "sha256": "602c4c7482de6479dd2e9793cda275e5e63d773dacd1eca689232ab7008fb4fb"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/cryptography/cryptography-50.0.2.dist-info_licenses_LICENSE",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/cryptography/cryptography-50.0.2.dist-info_licenses_LICENSE",
+    "sha256": "3e0c7c091a948b82533ba98fd7cbb40432d6f1a9acbf85f5922d2f99a93ae6bb"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/cryptography/cryptography-50.0.2.dist-info_licenses_LICENSE.APACHE",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/cryptography/cryptography-50.0.2.dist-info_licenses_LICENSE.APACHE",
+    "sha256": "aac73b3148f6d1d7111dbca32099f68d26c644c6813ae1e4f05f6579aa2663fe"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/cryptography/cryptography-50.0.2.dist-info_licenses_LICENSE.BSD",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/cryptography/cryptography-50.0.2.dist-info_licenses_LICENSE.BSD",
+    "sha256": "602c4c7482de6479dd2e9793cda275e5e63d773dacd1eca689232ab7008fb4fb"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/numpy/COPYING",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/numpy/COPYING",
+    "sha256": "aea41976c720f91bd19725c16916a1ace40eb1ea42620d340e587a5de4bbcea0"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/numpy/LICENSE",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/numpy/LICENSE",
+    "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/numpy/LICENSE.md",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/numpy/LICENSE.md",
+    "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/numpy/LICENSE.txt",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/numpy/LICENSE.txt",
+    "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/numpy/dragon4_LICENSE.txt",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/numpy/dragon4_LICENSE.txt",
+    "sha256": "b0fd592d4ead563148e3977e7b589169d46a5ef2ff133c755a81af880a3fc919"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_LICENSE.txt",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/numpy/numpy-2.5.4.dist-info_licenses_LICENSE.txt",
+    "sha256": "a804dff0ead9fadc5293456410bcbfc32bf024be9c4513459663fb7b442d2341"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_include_numpy_libdivide_LICENSE.txt",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_include_numpy_libdivide_LICENSE.txt",
+    "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_src_common_pythoncapi-compat_COPYING",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_src_common_pythoncapi-compat_COPYING",
+    "sha256": "aea41976c720f91bd19725c16916a1ace40eb1ea42620d340e587a5de4bbcea0"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_src_highway_LICENSE",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_src_highway_LICENSE",
+    "sha256": "d208152e2777ffd0126eacc1bd21c0320d69e4e6b622d21a2a12a47e8ef73763"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_src_multiarray_dragon4_LICENSE.txt",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_src_multiarray_dragon4_LICENSE.txt",
+    "sha256": "b0fd592d4ead563148e3977e7b589169d46a5ef2ff133c755a81af880a3fc919"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_src_npysort_x86-simd-sort_LICENSE.md",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_src_npysort_x86-simd-sort_LICENSE.md",
+    "sha256": "a732977853530066790c42817087f4829b518dd98d340c916acbfd227e39d3cb"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_src_umath_svml_LICENSE",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_src_umath_svml_LICENSE",
+    "sha256": "585483905b13d4b42f800c55ba99e89d6e2e33ccd5f503e201c07531d148ff41"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_fft_pocketfft_LICENSE.md",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_fft_pocketfft_LICENSE.md",
+    "sha256": "8db000e158c162e7249787852d8c69764706502ccee725c06641b31c1e95c8af"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_linalg_lapack_lite_LICENSE.txt",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_linalg_lapack_lite_LICENSE.txt",
+    "sha256": "19060ef465e1797d682ee0fc3081bd25ab1395e995e43d25c9d13c95d9a3cd6b"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_ma_LICENSE",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_ma_LICENSE",
+    "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_LICENSE.md",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_LICENSE.md",
+    "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_distributions_LICENSE.md",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_distributions_LICENSE.md",
+    "sha256": "cf5619f25b112d5ce7c896efffc8e610bcb345dfadcc19f2c1460aa48fff2c9e"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_mt19937_LICENSE.md",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_mt19937_LICENSE.md",
+    "sha256": "92c10699884321f1c2947fe2a70ab23b0fbf1507f756d89dd08f38c61fc3d4fa"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_pcg64_LICENSE.md",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_pcg64_LICENSE.md",
+    "sha256": "41190663b77bee5302386495a07b7eabfbfa571aa0ae2f11da6764162062fc4f"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_philox_LICENSE.md",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_philox_LICENSE.md",
+    "sha256": "322ac46d870c8aeead6c53adcccc839296fb3c8e456eae155081297daf7f8013"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_sfc64_LICENSE.md",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_sfc64_LICENSE.md",
+    "sha256": "28cad82ce1379dc529df30da78ec012d7d0d1d576b03ddcb93388aee53659f59"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_splitmix64_LICENSE.md",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_splitmix64_LICENSE.md",
+    "sha256": "454ec7350e478e037061850b67395753b425b1cb0a34bbc26290b020bf89d763"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/numpy/numpy__core_include_numpy_random_LICENSE.txt",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/numpy/numpy__core_include_numpy_random_LICENSE.txt",
+    "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/numpy/numpy_ma_LICENSE",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/numpy/numpy_ma_LICENSE",
+    "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/numpy/numpy_random_LICENSE.md",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/numpy/numpy_random_LICENSE.md",
+    "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/pycparser/LICENSE",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/pycparser/LICENSE",
+    "sha256": "0a9e78156ae8b96caf1b4f11ac2df424b83de29736f9e757630548a6272fdf90"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/pycparser/pycparser-3.12.dist-info_licenses_LICENSE",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/pycparser/pycparser-3.12.dist-info_licenses_LICENSE",
+    "sha256": "0a9e78156ae8b96caf1b4f11ac2df424b83de29736f9e757630548a6272fdf90"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/pyinstaller/COPYING.txt",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/pyinstaller/COPYING.txt",
+    "sha256": "0598064c7d2718e38d7914a7d08343b2fa008e3bea9ebba2aa7a6ffa5900dd64"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/pyinstaller/pyinstaller-6.22.3.dist-info_licenses_COPYING.txt",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/pyinstaller/pyinstaller-6.22.3.dist-info_licenses_COPYING.txt",
+    "sha256": "0598064c7d2718e38d7914a7d08343b2fa008e3bea9ebba2aa7a6ffa5900dd64"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/reedsolo/LICENSE",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/reedsolo/LICENSE",
+    "sha256": "2da9536c23b72bac15603bb1f8dbf269dc68ecfbc35a75f8d0aa9cb209ba0934"
+  },
+  {
+    "path": "versions/v2.5/desktop/licenses/reedsolo/reedsolo-1.7.0.dist-info_LICENSE",
+    "source": "v2.5/binary_image_passcode_v2.5/licenses/reedsolo/reedsolo-1.7.0.dist-info_LICENSE",
+    "sha256": "2da9536c23b72bac15603bb1f8dbf269dc68ecfbc35a75f8d0aa9cb209ba0934"
+  },
+  {
+    "path": "versions/v2.5/desktop/pyproject.toml",
+    "source": "v2.5/binary_image_passcode_v2.5/pyproject.toml",
+    "sha256": "f26d9bad5a912a006ae51612aa030ebbc40194ec624ab1ffe5d50103fe4a97c5"
+  },
+  {
+    "path": "versions/v2.5/desktop/requirements-dev.txt",
+    "source": "v2.5/binary_image_passcode_v2.5/requirements-dev.txt",
+    "sha256": "8636f9ab1a075be9f3039e2a6471837259c4f36b625bcaf7a3d9a1edd2419c6d"
+  },
+  {
+    "path": "versions/v2.5/desktop/requirements.txt",
+    "source": "v2.5/binary_image_passcode_v2.5/requirements.txt",
+    "sha256": "52c9613d4eb974c28ed77eca4cb3d0dd65148048ec8271dc97fd649652804a36"
+  },
+  {
+    "path": "versions/v2.5/desktop/run_linux.sh",
+    "source": "v2.5/binary_image_passcode_v2.5/run_linux.sh",
+    "sha256": "a38137f6ed52d7f935f54892053d9ba63ac883f55dd699a0317a6c57601ec3cd"
+  },
+  {
+    "path": "versions/v2.5/desktop/run_windows.bat",
+    "source": "v2.5/binary_image_passcode_v2.5/run_windows.bat",
+    "sha256": "b2c6c6dbfe1f7a70f95d5f24c326b6d396034c8312dcbbb8cd6509ceed47d5cf"
+  },
+  {
+    "path": "versions/v2.5/desktop/tests/conftest.py",
+    "source": "v2.5/binary_image_passcode_v2.5/tests/conftest.py",
+    "sha256": "33aefaf7de26784040993f95b48c7c80a0d88a6de527a9badf8aaa45fde868e9"
+  },
+  {
+    "path": "versions/v2.5/desktop/tests/test_cli.py",
+    "source": "v2.5/binary_image_passcode_v2.5/tests/test_cli.py",
+    "sha256": "4a16cb6997a29d9a7514b9806ca042c10d73dd53041c50fad0b90f5ef40a7050"
+  },
+  {
+    "path": "versions/v2.5/desktop/tests/test_codec_protocol.py",
+    "source": "v2.5/binary_image_passcode_v2.5/tests/test_codec_protocol.py",
+    "sha256": "0e9e8d104615ac9c72b87520448178d3401051f0882833be7f894408486c5467"
+  },
+  {
+    "path": "versions/v2.5/desktop/tests/test_erasure_images.py",
+    "source": "v2.5/binary_image_passcode_v2.5/tests/test_erasure_images.py",
+    "sha256": "fb952f396b64b0c84b85de5275105ead27206b2e8b8f064d0edf89912d147a72"
+  },
+  {
+    "path": "versions/v2.5/desktop/tests/test_gui.py",
+    "source": "v2.5/binary_image_passcode_v2.5/tests/test_gui.py",
+    "sha256": "15cdeafce275c08f67f6cf7c0c966d337a38cc82270db6d9c6c8e38721e68e7e"
+  },
+  {
+    "path": "versions/v2.5/desktop/tests/test_image_gui.py",
+    "source": "v2.5/binary_image_passcode_v2.5/tests/test_image_gui.py",
+    "sha256": "4cf0877629f8b0d987714b783f1e5d031dc7ff4b918c9427dbf9c87b5db0b905"
+  },
+  {
+    "path": "versions/v2.5/desktop/tests/test_image_payload.py",
+    "source": "v2.5/binary_image_passcode_v2.5/tests/test_image_payload.py",
+    "sha256": "e1b487f210c22722610dbefd9edc6051c7d34652309bd7b877ca4e737dcef0bc"
+  },
+  {
+    "path": "versions/v2.5/desktop/tests/test_large_images.py",
+    "source": "v2.5/binary_image_passcode_v2.5/tests/test_large_images.py",
+    "sha256": "793efee5cdf8324d957a5f51ea5566c4ccad3ae657bc9baec1cd8a173ebe726a"
+  },
+  {
+    "path": "versions/v2.5/desktop/tests/test_vault.py",
+    "source": "v2.5/binary_image_passcode_v2.5/tests/test_vault.py",
+    "sha256": "8fb6dc305980a5add402e86374ef324c7cc1f6cb804934be000ddf8a45cee28e"
+  },
+  {
+    "path": "versions/v2.6/android/.gitignore",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/.gitignore",
+    "sha256": "bfcd58d320cd6d44f2ec483581e88bbda7ac9ef96da20ea0e8e0a5414ac06304"
+  },
+  {
+    "path": "versions/v2.6/android/AndroidManifest.xml",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/AndroidManifest.xml",
+    "sha256": "7dd9d168165f894cdf6cc844740e6099294f97cb10b1406e4ad9ff8093a7ec30"
+  },
+  {
+    "path": "versions/v2.6/android/BUILD.md",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/BUILD.md",
+    "sha256": "57cffea202c5443334abfea76c5de45c063494f89b4a4cdc3030873bdd650f8e"
+  },
+  {
+    "path": "versions/v2.6/android/BUILD_V1.0.md",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/BUILD_V1.0.md",
+    "sha256": "19e188c559b6999742981bc89a8c0b02c1f15824bdfd11a58da0ebde26cbc5f5"
+  },
+  {
+    "path": "versions/v2.6/android/README.md",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/README.md",
+    "sha256": "02f08bbac58cd2d8b278dc31e2aedd75063d51964403e98eda42e1d202eac80e"
+  },
+  {
+    "path": "versions/v2.6/android/README_V1.0.md",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/README_V1.0.md",
+    "sha256": "459de6435a0ac95fd7d40ae150da737e6ae36639917db7c76d2b118ae78aeb02"
+  },
+  {
+    "path": "versions/v2.6/android/TEST_REPORT.md",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/TEST_REPORT.md",
+    "sha256": "c2f918d0e00312ec4f926719c20467955bd1b74cbaa40c0b02ba448c8e20e85b"
+  },
+  {
+    "path": "versions/v2.6/android/TEST_REPORT_V1.0.md",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/TEST_REPORT_V1.0.md",
+    "sha256": "be8cb35b46b9bcb3f6c67556c2568c75698c1dd267ae942f89b38c616e4da2d2"
+  },
+  {
+    "path": "versions/v2.6/android/build_android.py",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/build_android.py",
+    "sha256": "48c37536c401925820698aa1788f94d6ebcdbd48c9eb0d4e653e6233a2055b52"
+  },
+  {
+    "path": "versions/v2.6/android/build_tools.py",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/build_tools.py",
+    "sha256": "73c8ec5f3552cd15f074a3d70f041d26757d67ed180eab57984dc2dd136ce32d"
+  },
+  {
+    "path": "versions/v2.6/android/docs/ui_decrypt.png",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/docs/ui_decrypt.png",
+    "sha256": "4c2364f899ff258ba4eecaee1300c89139b5408e4ab693148dfb6c29532387be"
+  },
+  {
+    "path": "versions/v2.6/android/docs/ui_encrypt.png",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/docs/ui_encrypt.png",
+    "sha256": "68fd9ae067b2272eb13888245d14ff534b1692cfcf01b3cf0734fce69391c543"
+  },
+  {
+    "path": "versions/v2.6/android/docs/ui_keys.png",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/docs/ui_keys.png",
+    "sha256": "8d9a6e3c88bf4dd5afbf188b60064e6e91d218da67762a92e32393af59dddaad"
+  },
+  {
+    "path": "versions/v2.6/android/res/drawable/ic_terminal.xml",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/res/drawable/ic_terminal.xml",
+    "sha256": "2c014bd595504f6a707537253d8c1ae029d5f2e395ab9ccc14870688ef6b9b68"
+  },
+  {
+    "path": "versions/v2.6/android/res/mipmap-anydpi-v26/ic_launcher.xml",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/res/mipmap-anydpi-v26/ic_launcher.xml",
+    "sha256": "73b227cf7fdabe99c8dc5a6a3324e8b1a0f2a58dd9fb0ce123ff75433ee50008"
+  },
+  {
+    "path": "versions/v2.6/android/res/values/styles.xml",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/res/values/styles.xml",
+    "sha256": "99da356e6d9653e0166f9f4c58e18296c05692c9404b834766bb8c92377d0b9c"
+  },
+  {
+    "path": "versions/v2.6/android/res/xml/data_extraction_rules.xml",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/res/xml/data_extraction_rules.xml",
+    "sha256": "3022933b3087e342e2fa29a4fd892a24c49ebdda85dabea8bfaf9273d8a5f638"
+  },
+  {
+    "path": "versions/v2.6/android/src/org/binarypasscode/image/Codes.java",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/src/org/binarypasscode/image/Codes.java",
+    "sha256": "38b549ecde162d0c88dc54b96ef353776b3739f32983920f40a9937b1f88e102"
+  },
+  {
+    "path": "versions/v2.6/android/src/org/binarypasscode/image/Crypto.java",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/src/org/binarypasscode/image/Crypto.java",
+    "sha256": "353523dfadbeec40d53aeca220313f9cdb337fcd8eeffe77f5d04a43bb49067d"
+  },
+  {
+    "path": "versions/v2.6/android/src/org/binarypasscode/image/DenseTransport.java",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/src/org/binarypasscode/image/DenseTransport.java",
+    "sha256": "04669ffcb95bbdc5de8ec40828fc44c7bca0708e5b2ced3dd6932ecc0f8c8bfb"
+  },
+  {
+    "path": "versions/v2.6/android/src/org/binarypasscode/image/GalleryImages.java",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/src/org/binarypasscode/image/GalleryImages.java",
+    "sha256": "874e2fcf51dfa1646a5318c980aaab43f6c6cf19472d9dccb8bb55cd3a170e51"
+  },
+  {
+    "path": "versions/v2.6/android/src/org/binarypasscode/image/ImagePayload.java",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/src/org/binarypasscode/image/ImagePayload.java",
+    "sha256": "157e32cf958632764a282643692e5be9760d0459d04eccd1ab774cf8f0a7fbfd"
+  },
+  {
+    "path": "versions/v2.6/android/src/org/binarypasscode/image/Images.java",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/src/org/binarypasscode/image/Images.java",
+    "sha256": "c8f1f65406202aee32913f0b7632e3de9d5c50613984791a588db8416e82abb3"
+  },
+  {
+    "path": "versions/v2.6/android/src/org/binarypasscode/image/KeyVault.java",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/src/org/binarypasscode/image/KeyVault.java",
+    "sha256": "df3731c27bc31e3cbe8343671acc6853a9fdea70e4aa7e9adb268cce3831b781"
+  },
+  {
+    "path": "versions/v2.6/android/src/org/binarypasscode/image/MainActivity.java",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/src/org/binarypasscode/image/MainActivity.java",
+    "sha256": "1bba20e60b0fe345a5eda1080dda89c564788827994e67392e6a6b06efb02c4e"
+  },
+  {
+    "path": "versions/v2.6/android/src/org/binarypasscode/image/PngWriter.java",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/src/org/binarypasscode/image/PngWriter.java",
+    "sha256": "937749d19e83e61e4ada83f665557a21fae9e83f59f35a866c15a3a144c1c73c"
+  },
+  {
+    "path": "versions/v2.6/android/src/org/binarypasscode/image/SecretImages.java",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/src/org/binarypasscode/image/SecretImages.java",
+    "sha256": "0fd514594f9415100eb2ae77d6f1fed3eb124800c44d27dc66f0c3f204a8f1dc"
+  },
+  {
+    "path": "versions/v2.6/android/src/org/binarypasscode/image/Shake.java",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/src/org/binarypasscode/image/Shake.java",
+    "sha256": "93ba1d2cecff6997d0cb347285ffd4be3fdd9176b9adbba600e14f3153ae87b3"
+  },
+  {
+    "path": "versions/v2.6/android/src/org/binarypasscode/image/Transport.java",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/src/org/binarypasscode/image/Transport.java",
+    "sha256": "0473bb28f7d9b83f7f08caea420a14906421380b053810a6caffcd244c868a9d"
+  },
+  {
+    "path": "versions/v2.6/android/tests/AndroidUiTest.java",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/tests/AndroidUiTest.java",
+    "sha256": "f34c61ff72d941bf6e2c72de1c05ef53a5dd4345707e2fc019b4cdfe4f9c246e"
+  },
+  {
+    "path": "versions/v2.6/android/tests/CoreTest.java",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/tests/CoreTest.java",
+    "sha256": "86f08aca48ca04f4cbe9c9900641fdaf3e23485c080d33ad90bec682a2745fc8"
+  },
+  {
+    "path": "versions/v2.6/android/tests/ImageCoreTest.java",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/tests/ImageCoreTest.java",
+    "sha256": "8fa436291996c945687227782aeb8ab9ea075ac3491f6a348b0248d99352f821"
+  },
+  {
+    "path": "versions/v2.6/android/tests/PngTest.java",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/tests/PngTest.java",
+    "sha256": "298e1051c337ba2abeb8cba225a70da589aea6cf346d4a26e8da53762681ae9f"
+  },
+  {
+    "path": "versions/v2.6/android/tests/pom.xml",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/tests/pom.xml",
+    "sha256": "fa11fa76282a7e68df0eb21316fe16c5c2eba537e8be242a08465c1124b21c9c"
+  },
+  {
+    "path": "versions/v2.6/android/tests/run_ui_tests.py",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/tests/run_ui_tests.py",
+    "sha256": "5b69a361931f65079c6a1f320bcd1af41269f57e30fc08b1e9781c2fcccc8d37"
+  },
+  {
+    "path": "versions/v2.6/android/原理介绍.md",
+    "source": "v2.6/sourcecode/binary_image_passcode_v2.6_android_source.zip!binary_image_passcode_v2.6_android/原理介绍.md",
+    "sha256": "fcfcf276cbe3d704db0519a24fd6a324378cd2339c0db7e37eaca6b86b21884f"
+  },
+  {
+    "path": "versions/v2.6/desktop/.gitignore",
+    "source": "v2.6/binary_image_passcode_v2.6/.gitignore",
+    "sha256": "0f2b8d8cfbc3b474ea2a336326eb7a1090e33bc304efde96c4d03298809b7be5"
+  },
+  {
+    "path": "versions/v2.6/desktop/README.md",
+    "source": "v2.6/binary_image_passcode_v2.6/README.md",
+    "sha256": "277fdd4a7ea16c91b245b29a307e66ed1ff65908cb66221e96f40214eb5ff438"
+  },
+  {
+    "path": "versions/v2.6/desktop/README_DEVELOPER.md",
+    "source": "v2.6/binary_image_passcode_v2.6/README_DEVELOPER.md",
+    "sha256": "4060ab7b5984d20bd6b4289132a374a6801577b7a3c93f72874c192093363c07"
+  },
+  {
+    "path": "versions/v2.6/desktop/README_DEVELOPER_V2.1.md",
+    "source": "v2.6/binary_image_passcode_v2.6/README_DEVELOPER_V2.1.md",
+    "sha256": "99ee78e736cd7d84c8524418c8beda7f1c90259f9b59d32987e5b3975ed7afd9"
+  },
+  {
+    "path": "versions/v2.6/desktop/README_DEVELOPER_V2.5.md",
+    "source": "v2.6/binary_image_passcode_v2.6/README_DEVELOPER_V2.5.md",
+    "sha256": "3340190ab28a4139751e976013211943110dafc33b1b8009442860f166f6ddcc"
+  },
+  {
+    "path": "versions/v2.6/desktop/README_V2.1.md",
+    "source": "v2.6/binary_image_passcode_v2.6/README_V2.1.md",
+    "sha256": "f090e2c084856def8025d420c2322f8efcc3ae5c9495ec14d65524497189aea0"
+  },
+  {
+    "path": "versions/v2.6/desktop/README_V2.5.md",
+    "source": "v2.6/binary_image_passcode_v2.6/README_V2.5.md",
+    "sha256": "d98cf7ca56910eadd4b3a44d93d67398de559ac81ddf4421e90adf629d9ee404"
+  },
+  {
+    "path": "versions/v2.6/desktop/THIRD_PARTY_NOTICES.md",
+    "source": "v2.6/binary_image_passcode_v2.6/THIRD_PARTY_NOTICES.md",
+    "sha256": "44a3e0962f402cce44160b12bc2c27bc178b01825081b87e60d331a154930cfc"
+  },
+  {
+    "path": "versions/v2.6/desktop/assets/binary_image_passcode.ico",
+    "source": "v2.6/binary_image_passcode_v2.6/assets/binary_image_passcode.ico",
+    "sha256": "77f5d48229ce4948415c39a70704ecf0bb0d3433137fe660cde3527d84a4f01c"
+  },
+  {
+    "path": "versions/v2.6/desktop/assets/binary_image_passcode.png",
+    "source": "v2.6/binary_image_passcode_v2.6/assets/binary_image_passcode.png",
+    "sha256": "491f9bc8f5caac7b1139b0d32015abc19f7c86190b8fe4ef4298c5a40b6ac483"
+  },
+  {
+    "path": "versions/v2.6/desktop/assets/version_info.txt",
+    "source": "v2.6/binary_image_passcode_v2.6/assets/version_info.txt",
+    "sha256": "5f5d952037d7d35a816e6e1f882676dbb69798de6360052c3df058ab4cedec1b"
+  },
+  {
+    "path": "versions/v2.6/desktop/binary_image_passcode.py",
+    "source": "v2.6/binary_image_passcode_v2.6/binary_image_passcode.py",
+    "sha256": "8862bdfc9e5f7d5017973c68a5e3875064fdbd33b346503880f174472c418677"
+  },
+  {
+    "path": "versions/v2.6/desktop/bip/__init__.py",
+    "source": "v2.6/binary_image_passcode_v2.6/bip/__init__.py",
+    "sha256": "dae42cb6fbabe07abeb4d415f523e280d4895fe2ed07b3a4f314461cf88b5846"
+  },
+  {
+    "path": "versions/v2.6/desktop/bip/codec.py",
+    "source": "v2.6/binary_image_passcode_v2.6/bip/codec.py",
+    "sha256": "9b78d5e14373d15d2624ca1bb8bb2756f888df4ba4575b38aa95c4bfb7d91df2"
+  },
+  {
+    "path": "versions/v2.6/desktop/bip/dense_transport.py",
+    "source": "v2.6/binary_image_passcode_v2.6/bip/dense_transport.py",
+    "sha256": "44e099c7794853ca88cd57a53d2609a31ae784327783045c8fefd3aeb4bfc2bd"
+  },
+  {
+    "path": "versions/v2.6/desktop/bip/erasure.py",
+    "source": "v2.6/binary_image_passcode_v2.6/bip/erasure.py",
+    "sha256": "cd57692bdd7038cab89297505778cf424c9222f44dff0e0aee60844af0741d75"
+  },
+  {
+    "path": "versions/v2.6/desktop/bip/errors.py",
+    "source": "v2.6/binary_image_passcode_v2.6/bip/errors.py",
+    "sha256": "461a191cdf50862c0d44a7e7a2efb810ed8c1ee1888e143c4db1d39ef413c4ae"
+  },
+  {
+    "path": "versions/v2.6/desktop/bip/gui.py",
+    "source": "v2.6/binary_image_passcode_v2.6/bip/gui.py",
+    "sha256": "31311009fb00efc8d87319cc56c3adb04f3f9f68856bd83eb58bf1a70690b167"
+  },
+  {
+    "path": "versions/v2.6/desktop/bip/image_payload.py",
+    "source": "v2.6/binary_image_passcode_v2.6/bip/image_payload.py",
+    "sha256": "272caf6b74d99cb1af2ebc6a9c1f3e03de26f322d74e070622027ac6573e5bc4"
+  },
+  {
+    "path": "versions/v2.6/desktop/bip/image_transport.py",
+    "source": "v2.6/binary_image_passcode_v2.6/bip/image_transport.py",
+    "sha256": "643a013912f388a9bd650f9ad9ef6e3afa1c2c74a02a86d9012bac7883ccae0f"
+  },
+  {
+    "path": "versions/v2.6/desktop/bip/legacy20/__init__.py",
+    "source": "v2.6/binary_image_passcode_v2.6/bip/legacy20/__init__.py",
+    "sha256": "868bd1c3b8eee4037cfefae8a936820332f3f2587efabbe42bb3299e4f6678c4"
+  },
+  {
+    "path": "versions/v2.6/desktop/bip/legacy20/codec.py",
+    "source": "v2.6/binary_image_passcode_v2.6/bip/legacy20/codec.py",
+    "sha256": "45eee74afebe80a115639421b8def4363aceee5473ed649cf464cd809873a70b"
+  },
+  {
+    "path": "versions/v2.6/desktop/bip/legacy20/image_transport.py",
+    "source": "v2.6/binary_image_passcode_v2.6/bip/legacy20/image_transport.py",
+    "sha256": "5bc1536b68875b029c7665bbb4c504abf4fcece013d88f68e1bbd6f4dfe862e8"
+  },
+  {
+    "path": "versions/v2.6/desktop/bip/legacy20/protocol.py",
+    "source": "v2.6/binary_image_passcode_v2.6/bip/legacy20/protocol.py",
+    "sha256": "38c7d65b973e1084a3a4386b9d65bea7b825cd00ff9d4cfce9b999d5d93a9e12"
+  },
+  {
+    "path": "versions/v2.6/desktop/bip/protocol.py",
+    "source": "v2.6/binary_image_passcode_v2.6/bip/protocol.py",
+    "sha256": "66431a4728afdeb3e4191cc1ea41731aa311b02acec7ed34f5983d89e847e930"
+  },
+  {
+    "path": "versions/v2.6/desktop/bip/vault.py",
+    "source": "v2.6/binary_image_passcode_v2.6/bip/vault.py",
+    "sha256": "b0e263ed1bb64532144683069c75d44117059bced039d6e4fb4e9e117ed1d6c4"
+  },
+  {
+    "path": "versions/v2.6/desktop/build_linux.py",
+    "source": "v2.6/binary_image_passcode_v2.6/build_linux.py",
+    "sha256": "89c0b69a66d229f3ba92e823076672a55f92fa2e9a99d1401a5e472ed7f1ea71"
+  },
+  {
+    "path": "versions/v2.6/desktop/build_windows.py",
+    "source": "v2.6/binary_image_passcode_v2.6/build_windows.py",
+    "sha256": "e8745139a52abe788e41042356bf9c7423c27b51adade6cd95350eab145ec47f"
+  },
+  {
+    "path": "versions/v2.6/desktop/docs/ARCHITECTURE.md",
+    "source": "v2.6/binary_image_passcode_v2.6/docs/ARCHITECTURE.md",
+    "sha256": "15b59ae069c496d812987d8156a18d5dac25603efc501206f30683cc5e4705f9"
+  },
+  {
+    "path": "versions/v2.6/desktop/docs/CHANGELOG.md",
+    "source": "v2.6/binary_image_passcode_v2.6/docs/CHANGELOG.md",
+    "sha256": "7b96195559af61b2c72cdb4b7f56bd2cbbdb5e905f20e6e838eb3b6e9ee6a21a"
+  },
+  {
+    "path": "versions/v2.6/desktop/docs/CHANGELOG_V2.5.md",
+    "source": "v2.6/binary_image_passcode_v2.6/docs/CHANGELOG_V2.5.md",
+    "sha256": "290a67f4377b0b35e6293a106409af5b47b3e00d200982f26c64f8e35ecd102c"
+  },
+  {
+    "path": "versions/v2.6/desktop/docs/CHANGELOG_V2.6.md",
+    "source": "v2.6/binary_image_passcode_v2.6/docs/CHANGELOG_V2.6.md",
+    "sha256": "a1b552d0dd22e53436b254070dfac7181c651d477a7ffe7aa53cd8e5ae08e3f5"
+  },
+  {
+    "path": "versions/v2.6/desktop/docs/TEST_REPORT.md",
+    "source": "v2.6/binary_image_passcode_v2.6/docs/TEST_REPORT.md",
+    "sha256": "a731fcaeba87870b4de95c7b951cbea708ac9bc5a5d23c674b60071bd84d2684"
+  },
+  {
+    "path": "versions/v2.6/desktop/docs/TEST_REPORT_V2.1.md",
+    "source": "v2.6/binary_image_passcode_v2.6/docs/TEST_REPORT_V2.1.md",
+    "sha256": "df9ed945c784651858ba5e6e4d3dd0f509ccfd5141c7a515627a72bfa6e87e77"
+  },
+  {
+    "path": "versions/v2.6/desktop/docs/TEST_REPORT_V2.5.md",
+    "source": "v2.6/binary_image_passcode_v2.6/docs/TEST_REPORT_V2.5.md",
+    "sha256": "0f695d9253c264e3dbce60df966532a6913436836746852120efe8e584093dd0"
+  },
+  {
+    "path": "versions/v2.6/desktop/docs/ui_decrypt.png",
+    "source": "v2.6/binary_image_passcode_v2.6/docs/ui_decrypt.png",
+    "sha256": "f967e3bba133c5e98fabedbfa2f6c71aec9e2cd93ecd8de543fad44a9d202920"
+  },
+  {
+    "path": "versions/v2.6/desktop/docs/ui_encrypt.png",
+    "source": "v2.6/binary_image_passcode_v2.6/docs/ui_encrypt.png",
+    "sha256": "8f8aef18df0ca9a481795bc1b126e36e6f1e9c95a0068dbae57437daf2f6de66"
+  },
+  {
+    "path": "versions/v2.6/desktop/docs/ui_image_decrypt.png",
+    "source": "v2.6/binary_image_passcode_v2.6/docs/ui_image_decrypt.png",
+    "sha256": "90bfad50bf61afd3f0a7a5b4c1b977943b4b5d136d33e96148e8d5e65e5e3302"
+  },
+  {
+    "path": "versions/v2.6/desktop/docs/ui_image_encrypt.png",
+    "source": "v2.6/binary_image_passcode_v2.6/docs/ui_image_encrypt.png",
+    "sha256": "a66a0bd72144144c9be00daa4991bac9725adc2f2752e6696516592b9c76c27b"
+  },
+  {
+    "path": "versions/v2.6/desktop/docs/ui_keys.png",
+    "source": "v2.6/binary_image_passcode_v2.6/docs/ui_keys.png",
+    "sha256": "2140681d9b98f855460d1b4d5a862b6ad59200c15ed53655fa8719bb6a07a47a"
+  },
+  {
+    "path": "versions/v2.6/desktop/docs/ui_png_decrypt.png",
+    "source": "v2.6/binary_image_passcode_v2.6/docs/ui_png_decrypt.png",
+    "sha256": "ceb4ab31d2a4be4c07cd9afbdb987444fabf309c9fd43097a949b7cf2169647c"
+  },
+  {
+    "path": "versions/v2.6/desktop/docs/ui_png_encrypt.png",
+    "source": "v2.6/binary_image_passcode_v2.6/docs/ui_png_encrypt.png",
+    "sha256": "8c3e5f6362b475fd0c5ca674ff70c2c36e70b536676fcf61c78d47c8fcf3e0eb"
+  },
+  {
+    "path": "versions/v2.6/desktop/docs/ui_windows_exe.png",
+    "source": "v2.6/binary_image_passcode_v2.6/docs/ui_windows_exe.png",
+    "sha256": "e35f55d0b9196db4a091b6a00cb6dc661b2ab823d6e42ed879a499b3ffdd753b"
+  },
+  {
+    "path": "versions/v2.6/desktop/examples/README.md",
+    "source": "v2.6/binary_image_passcode_v2.6/examples/README.md",
+    "sha256": "b7c5e11c419bd8a6d2ec9a68e2852e40136efa934c5e03b67e6010d61070318c"
+  },
+  {
+    "path": "versions/v2.6/desktop/examples/demo_cover.png",
+    "source": "v2.6/binary_image_passcode_v2.6/examples/demo_cover.png",
+    "sha256": "e8b8fe37067c94a3e09a0a123cc33ee7c8ea2170e7b4c6b02e959432107b8ab7"
+  },
+  {
+    "path": "versions/v2.6/desktop/examples/demo_cropped.png",
+    "source": "v2.6/binary_image_passcode_v2.6/examples/demo_cropped.png",
+    "sha256": "f3f98dbc954402616269b465884e6ffbcfa1bfcd707a3746143fa56a96f17c72"
+  },
+  {
+    "path": "versions/v2.6/desktop/examples/demo_encoded.png",
+    "source": "v2.6/binary_image_passcode_v2.6/examples/demo_encoded.png",
+    "sha256": "47075b21703a86a61f6718a664d23d13f7da24e264f3f34215eacc23b34b4a0f"
+  },
+  {
+    "path": "versions/v2.6/desktop/examples/demo_message.txt",
+    "source": "v2.6/binary_image_passcode_v2.6/examples/demo_message.txt",
+    "sha256": "2049e5b62e547ecfc930b854fc852be3d65863083f5c5d076d4b7376dd4f695a"
+  },
+  {
+    "path": "versions/v2.6/desktop/examples/v20/demo_cropped.png",
+    "source": "v2.6/binary_image_passcode_v2.6/examples/v20/demo_cropped.png",
+    "sha256": "dbb816341513f00b0ed38c29bfcd975d991f7eb27341f09f3fea8cd6e7ec9638"
+  },
+  {
+    "path": "versions/v2.6/desktop/examples/v20/demo_encoded.png",
+    "source": "v2.6/binary_image_passcode_v2.6/examples/v20/demo_encoded.png",
+    "sha256": "4c153fdd51a8c65ccdc0efea5cdb9c4506b3bff9778723f99ef90f34d3614585"
+  },
+  {
+    "path": "versions/v2.6/desktop/examples/v20/demo_message.txt",
+    "source": "v2.6/binary_image_passcode_v2.6/examples/v20/demo_message.txt",
+    "sha256": "2049e5b62e547ecfc930b854fc852be3d65863083f5c5d076d4b7376dd4f695a"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/Pillow/LICENSE",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/Pillow/LICENSE",
+    "sha256": "988ffe8ab3480b0f4e9a0ab2702bffd73d9fb6b47198043fb3ba101a62fac236"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/Pillow/pillow-13.0.0.dist-info_licenses_LICENSE",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/Pillow/pillow-13.0.0.dist-info_licenses_LICENSE",
+    "sha256": "988ffe8ab3480b0f4e9a0ab2702bffd73d9fb6b47198043fb3ba101a62fac236"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/Python-LICENSE.txt",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/Python-LICENSE.txt",
+    "sha256": "935cf13e19f8c31b497d20b05d73623431a226b230c3599bc30fa3348979bc68"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/TCL-license.terms",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/TCL-license.terms",
+    "sha256": "c0a69a2bfd757361ec7e6143973b103c90409316b49e9c88db26ad6388e79f16"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/TK-license.terms",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/TK-license.terms",
+    "sha256": "2cde822b93ca16ae535c954b7dfe658b4ad10df2a193628d1b358f1765e8b198"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/TclTk-demos-license.terms",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/TclTk-demos-license.terms",
+    "sha256": "0d1e4405f6273f091732764ed89b57066be63ce64869be6c71ea337dc4f2f9b5"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/cffi/LICENSE",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/cffi/LICENSE",
+    "sha256": "5ba24ddc57067f9249add644c3afc41a5d6dc37e23433ef759d95df370b0af63"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/cffi/cffi-2.1.1.dist-info_licenses_LICENSE",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/cffi/cffi-2.1.1.dist-info_licenses_LICENSE",
+    "sha256": "5ba24ddc57067f9249add644c3afc41a5d6dc37e23433ef759d95df370b0af63"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/cryptography/LICENSE",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/cryptography/LICENSE",
+    "sha256": "3e0c7c091a948b82533ba98fd7cbb40432d6f1a9acbf85f5922d2f99a93ae6bb"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/cryptography/LICENSE.APACHE",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/cryptography/LICENSE.APACHE",
+    "sha256": "aac73b3148f6d1d7111dbca32099f68d26c644c6813ae1e4f05f6579aa2663fe"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/cryptography/LICENSE.BSD",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/cryptography/LICENSE.BSD",
+    "sha256": "602c4c7482de6479dd2e9793cda275e5e63d773dacd1eca689232ab7008fb4fb"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/cryptography/cryptography-50.0.2.dist-info_licenses_LICENSE",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/cryptography/cryptography-50.0.2.dist-info_licenses_LICENSE",
+    "sha256": "3e0c7c091a948b82533ba98fd7cbb40432d6f1a9acbf85f5922d2f99a93ae6bb"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/cryptography/cryptography-50.0.2.dist-info_licenses_LICENSE.APACHE",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/cryptography/cryptography-50.0.2.dist-info_licenses_LICENSE.APACHE",
+    "sha256": "aac73b3148f6d1d7111dbca32099f68d26c644c6813ae1e4f05f6579aa2663fe"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/cryptography/cryptography-50.0.2.dist-info_licenses_LICENSE.BSD",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/cryptography/cryptography-50.0.2.dist-info_licenses_LICENSE.BSD",
+    "sha256": "602c4c7482de6479dd2e9793cda275e5e63d773dacd1eca689232ab7008fb4fb"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/numpy/COPYING",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/numpy/COPYING",
+    "sha256": "aea41976c720f91bd19725c16916a1ace40eb1ea42620d340e587a5de4bbcea0"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/numpy/LICENSE",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/numpy/LICENSE",
+    "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/numpy/LICENSE.md",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/numpy/LICENSE.md",
+    "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/numpy/LICENSE.txt",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/numpy/LICENSE.txt",
+    "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/numpy/dragon4_LICENSE.txt",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/numpy/dragon4_LICENSE.txt",
+    "sha256": "b0fd592d4ead563148e3977e7b589169d46a5ef2ff133c755a81af880a3fc919"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_LICENSE.txt",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/numpy/numpy-2.5.4.dist-info_licenses_LICENSE.txt",
+    "sha256": "a804dff0ead9fadc5293456410bcbfc32bf024be9c4513459663fb7b442d2341"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_include_numpy_libdivide_LICENSE.txt",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_include_numpy_libdivide_LICENSE.txt",
+    "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_src_common_pythoncapi-compat_COPYING",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_src_common_pythoncapi-compat_COPYING",
+    "sha256": "aea41976c720f91bd19725c16916a1ace40eb1ea42620d340e587a5de4bbcea0"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_src_highway_LICENSE",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_src_highway_LICENSE",
+    "sha256": "d208152e2777ffd0126eacc1bd21c0320d69e4e6b622d21a2a12a47e8ef73763"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_src_multiarray_dragon4_LICENSE.txt",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_src_multiarray_dragon4_LICENSE.txt",
+    "sha256": "b0fd592d4ead563148e3977e7b589169d46a5ef2ff133c755a81af880a3fc919"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_src_npysort_x86-simd-sort_LICENSE.md",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_src_npysort_x86-simd-sort_LICENSE.md",
+    "sha256": "a732977853530066790c42817087f4829b518dd98d340c916acbfd227e39d3cb"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_src_umath_svml_LICENSE",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy__core_src_umath_svml_LICENSE",
+    "sha256": "585483905b13d4b42f800c55ba99e89d6e2e33ccd5f503e201c07531d148ff41"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_fft_pocketfft_LICENSE.md",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_fft_pocketfft_LICENSE.md",
+    "sha256": "8db000e158c162e7249787852d8c69764706502ccee725c06641b31c1e95c8af"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_linalg_lapack_lite_LICENSE.txt",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_linalg_lapack_lite_LICENSE.txt",
+    "sha256": "19060ef465e1797d682ee0fc3081bd25ab1395e995e43d25c9d13c95d9a3cd6b"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_ma_LICENSE",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_ma_LICENSE",
+    "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_LICENSE.md",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_LICENSE.md",
+    "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_distributions_LICENSE.md",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_distributions_LICENSE.md",
+    "sha256": "cf5619f25b112d5ce7c896efffc8e610bcb345dfadcc19f2c1460aa48fff2c9e"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_mt19937_LICENSE.md",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_mt19937_LICENSE.md",
+    "sha256": "92c10699884321f1c2947fe2a70ab23b0fbf1507f756d89dd08f38c61fc3d4fa"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_pcg64_LICENSE.md",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_pcg64_LICENSE.md",
+    "sha256": "41190663b77bee5302386495a07b7eabfbfa571aa0ae2f11da6764162062fc4f"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_philox_LICENSE.md",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_philox_LICENSE.md",
+    "sha256": "322ac46d870c8aeead6c53adcccc839296fb3c8e456eae155081297daf7f8013"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_sfc64_LICENSE.md",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_sfc64_LICENSE.md",
+    "sha256": "28cad82ce1379dc529df30da78ec012d7d0d1d576b03ddcb93388aee53659f59"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_splitmix64_LICENSE.md",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/numpy/numpy-2.5.4.dist-info_licenses_numpy_random_src_splitmix64_LICENSE.md",
+    "sha256": "454ec7350e478e037061850b67395753b425b1cb0a34bbc26290b020bf89d763"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/numpy/numpy__core_include_numpy_random_LICENSE.txt",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/numpy/numpy__core_include_numpy_random_LICENSE.txt",
+    "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/numpy/numpy_ma_LICENSE",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/numpy/numpy_ma_LICENSE",
+    "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/numpy/numpy_random_LICENSE.md",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/numpy/numpy_random_LICENSE.md",
+    "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/pycparser/LICENSE",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/pycparser/LICENSE",
+    "sha256": "0a9e78156ae8b96caf1b4f11ac2df424b83de29736f9e757630548a6272fdf90"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/pycparser/pycparser-3.12.dist-info_licenses_LICENSE",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/pycparser/pycparser-3.12.dist-info_licenses_LICENSE",
+    "sha256": "0a9e78156ae8b96caf1b4f11ac2df424b83de29736f9e757630548a6272fdf90"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/pyinstaller/COPYING.txt",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/pyinstaller/COPYING.txt",
+    "sha256": "0598064c7d2718e38d7914a7d08343b2fa008e3bea9ebba2aa7a6ffa5900dd64"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/pyinstaller/pyinstaller-6.22.3.dist-info_licenses_COPYING.txt",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/pyinstaller/pyinstaller-6.22.3.dist-info_licenses_COPYING.txt",
+    "sha256": "0598064c7d2718e38d7914a7d08343b2fa008e3bea9ebba2aa7a6ffa5900dd64"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/reedsolo/LICENSE",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/reedsolo/LICENSE",
+    "sha256": "2da9536c23b72bac15603bb1f8dbf269dc68ecfbc35a75f8d0aa9cb209ba0934"
+  },
+  {
+    "path": "versions/v2.6/desktop/licenses/reedsolo/reedsolo-1.7.0.dist-info_LICENSE",
+    "source": "v2.6/binary_image_passcode_v2.6/licenses/reedsolo/reedsolo-1.7.0.dist-info_LICENSE",
+    "sha256": "2da9536c23b72bac15603bb1f8dbf269dc68ecfbc35a75f8d0aa9cb209ba0934"
+  },
+  {
+    "path": "versions/v2.6/desktop/pyproject.toml",
+    "source": "v2.6/binary_image_passcode_v2.6/pyproject.toml",
+    "sha256": "f38ce0017b0aa244493bc264eabf412bd053ffaf6ecc2954bbe38daec63fa202"
+  },
+  {
+    "path": "versions/v2.6/desktop/requirements-dev.txt",
+    "source": "v2.6/binary_image_passcode_v2.6/requirements-dev.txt",
+    "sha256": "8636f9ab1a075be9f3039e2a6471837259c4f36b625bcaf7a3d9a1edd2419c6d"
+  },
+  {
+    "path": "versions/v2.6/desktop/requirements.txt",
+    "source": "v2.6/binary_image_passcode_v2.6/requirements.txt",
+    "sha256": "52c9613d4eb974c28ed77eca4cb3d0dd65148048ec8271dc97fd649652804a36"
+  },
+  {
+    "path": "versions/v2.6/desktop/run_linux.sh",
+    "source": "v2.6/binary_image_passcode_v2.6/run_linux.sh",
+    "sha256": "ab6815e9d3a78a9f86cf711bdb2ccc9c4369dc470be4b1f8712937600e8a37a7"
+  },
+  {
+    "path": "versions/v2.6/desktop/run_windows.bat",
+    "source": "v2.6/binary_image_passcode_v2.6/run_windows.bat",
+    "sha256": "b2c6c6dbfe1f7a70f95d5f24c326b6d396034c8312dcbbb8cd6509ceed47d5cf"
+  },
+  {
+    "path": "versions/v2.6/desktop/tests/conftest.py",
+    "source": "v2.6/binary_image_passcode_v2.6/tests/conftest.py",
+    "sha256": "33aefaf7de26784040993f95b48c7c80a0d88a6de527a9badf8aaa45fde868e9"
+  },
+  {
+    "path": "versions/v2.6/desktop/tests/test_cli.py",
+    "source": "v2.6/binary_image_passcode_v2.6/tests/test_cli.py",
+    "sha256": "4a16cb6997a29d9a7514b9806ca042c10d73dd53041c50fad0b90f5ef40a7050"
+  },
+  {
+    "path": "versions/v2.6/desktop/tests/test_codec_protocol.py",
+    "source": "v2.6/binary_image_passcode_v2.6/tests/test_codec_protocol.py",
+    "sha256": "0e9e8d104615ac9c72b87520448178d3401051f0882833be7f894408486c5467"
+  },
+  {
+    "path": "versions/v2.6/desktop/tests/test_erasure_images.py",
+    "source": "v2.6/binary_image_passcode_v2.6/tests/test_erasure_images.py",
+    "sha256": "fb952f396b64b0c84b85de5275105ead27206b2e8b8f064d0edf89912d147a72"
+  },
+  {
+    "path": "versions/v2.6/desktop/tests/test_gui.py",
+    "source": "v2.6/binary_image_passcode_v2.6/tests/test_gui.py",
+    "sha256": "15cdeafce275c08f67f6cf7c0c966d337a38cc82270db6d9c6c8e38721e68e7e"
+  },
+  {
+    "path": "versions/v2.6/desktop/tests/test_image_gui.py",
+    "source": "v2.6/binary_image_passcode_v2.6/tests/test_image_gui.py",
+    "sha256": "73ec6d28709589d967d7687180054187aa1dff0a52c796a64f1031a83566ac79"
+  },
+  {
+    "path": "versions/v2.6/desktop/tests/test_image_payload.py",
+    "source": "v2.6/binary_image_passcode_v2.6/tests/test_image_payload.py",
+    "sha256": "e1b487f210c22722610dbefd9edc6051c7d34652309bd7b877ca4e737dcef0bc"
+  },
+  {
+    "path": "versions/v2.6/desktop/tests/test_large_images.py",
+    "source": "v2.6/binary_image_passcode_v2.6/tests/test_large_images.py",
+    "sha256": "793efee5cdf8324d957a5f51ea5566c4ccad3ae657bc9baec1cd8a173ebe726a"
+  },
+  {
+    "path": "versions/v2.6/desktop/tests/test_png_gui.py",
+    "source": "v2.6/binary_image_passcode_v2.6/tests/test_png_gui.py",
+    "sha256": "bca945724551b47b70d5ce9249cbfa01e2a6d96fb3500a21d66fea604a2ed2c5"
+  },
+  {
+    "path": "versions/v2.6/desktop/tests/test_png_lossless.py",
+    "source": "v2.6/binary_image_passcode_v2.6/tests/test_png_lossless.py",
+    "sha256": "c31e8db63ad4cd79b58c2ee91676351173ceeb7864ac17fc9a6613fab6a9df36"
+  },
+  {
+    "path": "versions/v2.6/desktop/tests/test_vault.py",
+    "source": "v2.6/binary_image_passcode_v2.6/tests/test_vault.py",
+    "sha256": "8fb6dc305980a5add402e86374ef324c7cc1f6cb804934be000ddf8a45cee28e"
+  },
+  {
+    "path": "versions/v2.6/ios/.github/workflows/ios-build.yml",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/.github/workflows/ios-build.yml",
+    "sha256": "b82e8f4f719b69235706c8b3d6a248c1d356f34322cb3e33551cea640b31f095"
+  },
+  {
+    "path": "versions/v2.6/ios/.gitignore",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/.gitignore",
+    "sha256": "f7c99f60fa65c06d5d9f9bbb206102c8cefb4ab146d3cbd3baec73a14733c6e8"
+  },
+  {
+    "path": "versions/v2.6/ios/App/BIPService.h",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/App/BIPService.h",
+    "sha256": "a9a372d1516f0c9569a25b8d8183b757d8b1097926a5b86368ad928884ec213a"
+  },
+  {
+    "path": "versions/v2.6/ios/App/BIPService.mm",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/App/BIPService.mm",
+    "sha256": "09f92f85eda8084444a0fd9781d470309f32c5ea845c1048207e36daaf2b7b36"
+  },
+  {
+    "path": "versions/v2.6/ios/App/BinaryImagePasscodeApp.swift",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/App/BinaryImagePasscodeApp.swift",
+    "sha256": "b759cc557156524a3d0102c1897b13e125f929efeab3518b60ee336389dec5f5"
+  },
+  {
+    "path": "versions/v2.6/ios/App/Bridging.h",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/App/Bridging.h",
+    "sha256": "12b3b66828fb50399e7b43c293b74accee62dc7615fdc33add3ee37ae27c3fa3"
+  },
+  {
+    "path": "versions/v2.6/ios/App/ContentView.swift",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/App/ContentView.swift",
+    "sha256": "b19b490290cbd2b7d8d8a95bd1ead594503817c5f3dabd3756f19fa0d4b2e730"
+  },
+  {
+    "path": "versions/v2.6/ios/App/CryptoBridge.swift",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/App/CryptoBridge.swift",
+    "sha256": "4da88b323a099031b04e53c01a99febd691ab9c924b85578eccb92b4377c436b"
+  },
+  {
+    "path": "versions/v2.6/ios/App/FileSupport.swift",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/App/FileSupport.swift",
+    "sha256": "4e74e1f15aeedb9ef50c59dae215af458f5ad27732b97bb6a6633c73efdbf521"
+  },
+  {
+    "path": "versions/v2.6/ios/App/KeyManagerView.swift",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/App/KeyManagerView.swift",
+    "sha256": "dfae22c69d37a4c666b065c7ca89a67b761076f6a29aa026aa99be49fdfd3220"
+  },
+  {
+    "path": "versions/v2.6/ios/App/KeyVault.swift",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/App/KeyVault.swift",
+    "sha256": "fab0fda2f3c31f37d69dacd2e4213b82abe797189853b721f56de5c162de15a8"
+  },
+  {
+    "path": "versions/v2.6/ios/App/PhotoLibrarySaver.swift",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/App/PhotoLibrarySaver.swift",
+    "sha256": "12e356d2e4623e99a104fbf0e7e36ea63606c37ac30775c0eb19b019988bfb1b"
+  },
+  {
+    "path": "versions/v2.6/ios/App/PhotoPicker.swift",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/App/PhotoPicker.swift",
+    "sha256": "e26dea146bfb52338da05d01cd736978dbf587459e56b26a384b543747c0f7ce"
+  },
+  {
+    "path": "versions/v2.6/ios/App/Simulator.entitlements",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/App/Simulator.entitlements",
+    "sha256": "3333040decae58be0eebe8cee29ce6ca79248e016dd81dd1b68204ea88c47f38"
+  },
+  {
+    "path": "versions/v2.6/ios/Assets.xcassets/AppIcon.appiconset/Contents.json",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Assets.xcassets/AppIcon.appiconset/Contents.json",
+    "sha256": "e44d1bea1cc5bb580769bcfd85cfdee175c5635c4bbb6dfdaaca348d93aedd1d"
+  },
+  {
+    "path": "versions/v2.6/ios/Assets.xcassets/AppIcon.appiconset/icon-ios-marketing-1024-1.png",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Assets.xcassets/AppIcon.appiconset/icon-ios-marketing-1024-1.png",
+    "sha256": "d805fa9fa60410632fb45099609a2ae673f18db8216c179b801be62187dbc998"
+  },
+  {
+    "path": "versions/v2.6/ios/Assets.xcassets/AppIcon.appiconset/icon-ipad-20-1.png",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Assets.xcassets/AppIcon.appiconset/icon-ipad-20-1.png",
+    "sha256": "219d343a8f4f71358e7e5aceb5976b05fdc69823a37480858a18d37f97129924"
+  },
+  {
+    "path": "versions/v2.6/ios/Assets.xcassets/AppIcon.appiconset/icon-ipad-20-2.png",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Assets.xcassets/AppIcon.appiconset/icon-ipad-20-2.png",
+    "sha256": "fff09f947b663ef0b260bdd0e08ec9db90bd05654185729685559d44f636e64a"
+  },
+  {
+    "path": "versions/v2.6/ios/Assets.xcassets/AppIcon.appiconset/icon-ipad-29-1.png",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Assets.xcassets/AppIcon.appiconset/icon-ipad-29-1.png",
+    "sha256": "f3fe9a56dcea6f7d3e52b928f8453ebf3331df3b13b2246c6a04d1815cf9933f"
+  },
+  {
+    "path": "versions/v2.6/ios/Assets.xcassets/AppIcon.appiconset/icon-ipad-29-2.png",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Assets.xcassets/AppIcon.appiconset/icon-ipad-29-2.png",
+    "sha256": "ff95b53e61fa4d46a519151ca024b541fdd3e67c2445ea12157bacafc2de349c"
+  },
+  {
+    "path": "versions/v2.6/ios/Assets.xcassets/AppIcon.appiconset/icon-ipad-40-1.png",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Assets.xcassets/AppIcon.appiconset/icon-ipad-40-1.png",
+    "sha256": "fff09f947b663ef0b260bdd0e08ec9db90bd05654185729685559d44f636e64a"
+  },
+  {
+    "path": "versions/v2.6/ios/Assets.xcassets/AppIcon.appiconset/icon-ipad-40-2.png",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Assets.xcassets/AppIcon.appiconset/icon-ipad-40-2.png",
+    "sha256": "5bb9d92f6840697ac2cbac2e6e1db20167396f7a19d2b9824be7c1cbf33d8c36"
+  },
+  {
+    "path": "versions/v2.6/ios/Assets.xcassets/AppIcon.appiconset/icon-ipad-76-1.png",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Assets.xcassets/AppIcon.appiconset/icon-ipad-76-1.png",
+    "sha256": "f47107f6394c527896eca3f27a6970de798fa6e7d892af41d05623c5c7c71321"
+  },
+  {
+    "path": "versions/v2.6/ios/Assets.xcassets/AppIcon.appiconset/icon-ipad-76-2.png",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Assets.xcassets/AppIcon.appiconset/icon-ipad-76-2.png",
+    "sha256": "8ef05772093e30f87a52c0163119969371cf668184f66bd13738d4b3feb45f83"
+  },
+  {
+    "path": "versions/v2.6/ios/Assets.xcassets/AppIcon.appiconset/icon-ipad-83.5-2.png",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Assets.xcassets/AppIcon.appiconset/icon-ipad-83.5-2.png",
+    "sha256": "ae6c92c91f9e0f8058a8a0507c4669c46e6d0c0e472b6dba2ea29446b0b9d7b6"
+  },
+  {
+    "path": "versions/v2.6/ios/Assets.xcassets/AppIcon.appiconset/icon-iphone-20-2.png",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Assets.xcassets/AppIcon.appiconset/icon-iphone-20-2.png",
+    "sha256": "fff09f947b663ef0b260bdd0e08ec9db90bd05654185729685559d44f636e64a"
+  },
+  {
+    "path": "versions/v2.6/ios/Assets.xcassets/AppIcon.appiconset/icon-iphone-20-3.png",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Assets.xcassets/AppIcon.appiconset/icon-iphone-20-3.png",
+    "sha256": "22c33ef555ec81b4c43f90a20dc15b26686f155f856d1c1777efaf875a95c1ea"
+  },
+  {
+    "path": "versions/v2.6/ios/Assets.xcassets/AppIcon.appiconset/icon-iphone-29-2.png",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Assets.xcassets/AppIcon.appiconset/icon-iphone-29-2.png",
+    "sha256": "ff95b53e61fa4d46a519151ca024b541fdd3e67c2445ea12157bacafc2de349c"
+  },
+  {
+    "path": "versions/v2.6/ios/Assets.xcassets/AppIcon.appiconset/icon-iphone-29-3.png",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Assets.xcassets/AppIcon.appiconset/icon-iphone-29-3.png",
+    "sha256": "bdee3de826582c24b89997d2d9223ff95a9e7ec1f7b485588deca992a3146df4"
+  },
+  {
+    "path": "versions/v2.6/ios/Assets.xcassets/AppIcon.appiconset/icon-iphone-40-2.png",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Assets.xcassets/AppIcon.appiconset/icon-iphone-40-2.png",
+    "sha256": "5bb9d92f6840697ac2cbac2e6e1db20167396f7a19d2b9824be7c1cbf33d8c36"
+  },
+  {
+    "path": "versions/v2.6/ios/Assets.xcassets/AppIcon.appiconset/icon-iphone-40-3.png",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Assets.xcassets/AppIcon.appiconset/icon-iphone-40-3.png",
+    "sha256": "a281352ef2bc10b566237edf5119693ae35b3c5040b3f39e6aab31983c846028"
+  },
+  {
+    "path": "versions/v2.6/ios/Assets.xcassets/AppIcon.appiconset/icon-iphone-60-2.png",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Assets.xcassets/AppIcon.appiconset/icon-iphone-60-2.png",
+    "sha256": "a281352ef2bc10b566237edf5119693ae35b3c5040b3f39e6aab31983c846028"
+  },
+  {
+    "path": "versions/v2.6/ios/Assets.xcassets/AppIcon.appiconset/icon-iphone-60-3.png",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Assets.xcassets/AppIcon.appiconset/icon-iphone-60-3.png",
+    "sha256": "21cf1558abf336b9b3285de4979d79d5ae0cf9cc3f219bc0a5c65844ae533f2f"
+  },
+  {
+    "path": "versions/v2.6/ios/Assets.xcassets/Contents.json",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Assets.xcassets/Contents.json",
+    "sha256": "47d7e4a36c59b0f8829154abe3a7f6b7ef0c5ea5cf8a9bfccbc6bdf85e811d1b"
+  },
+  {
+    "path": "versions/v2.6/ios/Core/AppleCrypto.mm",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Core/AppleCrypto.mm",
+    "sha256": "2975beedd03b5953e732513c27cc8082230093f97179c71aa0c65426efec60d0"
+  },
+  {
+    "path": "versions/v2.6/ios/Core/BIPCore.cpp",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Core/BIPCore.cpp",
+    "sha256": "305cdb26d85d73db55c0755306f66d9f6c0bfaf91ddf7d6f146de5f60d964466"
+  },
+  {
+    "path": "versions/v2.6/ios/Core/BIPCore.hpp",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Core/BIPCore.hpp",
+    "sha256": "b945bfbd93c7b408a0c3818e22a2877e406b3e8982f541894c6b922627b58591"
+  },
+  {
+    "path": "versions/v2.6/ios/Core/PixelCodec.cpp",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Core/PixelCodec.cpp",
+    "sha256": "86799f7650df74a06d7be57eee0e3948ac0ebe2c5e30df741322178d22182211"
+  },
+  {
+    "path": "versions/v2.6/ios/Core/PixelCodec.hpp",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Core/PixelCodec.hpp",
+    "sha256": "f15807706f282ba4939bdbeeca2ce0d4a6a13b05ecc9cac88596234c328159be"
+  },
+  {
+    "path": "versions/v2.6/ios/Info.plist",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Info.plist",
+    "sha256": "d7d347bd7e572e359204b790e67f0545e9c52f8a9c85d5a00e2c24b36eaadea2"
+  },
+  {
+    "path": "versions/v2.6/ios/PrivacyInfo.xcprivacy",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/PrivacyInfo.xcprivacy",
+    "sha256": "aa6668dedb28075c0c628237c3d4c0e1d0840fe7143a33103acba1969c91bee0"
+  },
+  {
+    "path": "versions/v2.6/ios/README.md",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/README.md",
+    "sha256": "7c3bf8e074433e1efafd7d2c044412af59c13d039dbc597b735ee62470b17be6"
+  },
+  {
+    "path": "versions/v2.6/ios/TEST_REPORT.md",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/TEST_REPORT.md",
+    "sha256": "04929d90e86e0e4d76f5384c325a8c818b37059610cb789eb0df9421fba514a7"
+  },
+  {
+    "path": "versions/v2.6/ios/THIRD_PARTY_NOTICES.md",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/THIRD_PARTY_NOTICES.md",
+    "sha256": "5129bdf106343e085a94e8a62dbc2f146207410ec4665cafef9e87fd573b194f"
+  },
+  {
+    "path": "versions/v2.6/ios/Tests/CoreCLI.cpp",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Tests/CoreCLI.cpp",
+    "sha256": "0ceec6a8335128a61a5237057def8102e2c69fac2c6a0def4fa31afee33cd221"
+  },
+  {
+    "path": "versions/v2.6/ios/Tests/Fixtures/carrier.png",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Tests/Fixtures/carrier.png",
+    "sha256": "04c8b814d54a98a2a3cdaca26ed74a4538b18778df399f447303fcc30880430d"
+  },
+  {
+    "path": "versions/v2.6/ios/Tests/Fixtures/encoded_jpg.png",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Tests/Fixtures/encoded_jpg.png",
+    "sha256": "ea53a27d2e0e606d0576595484708259cece4f2bef7fa28176dd4b1563784537"
+  },
+  {
+    "path": "versions/v2.6/ios/Tests/Fixtures/encoded_png.png",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Tests/Fixtures/encoded_png.png",
+    "sha256": "a9820129064dea996f5ef264ebe368483f540f2b3d521fbfca3bf1c6891d493f"
+  },
+  {
+    "path": "versions/v2.6/ios/Tests/Fixtures/secret.jpg",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Tests/Fixtures/secret.jpg",
+    "sha256": "9235db31747eae23d3fbf2bf817046051bd91033c49527dc75e47581f137acb6"
+  },
+  {
+    "path": "versions/v2.6/ios/Tests/Fixtures/secret.png",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Tests/Fixtures/secret.png",
+    "sha256": "b8fe3d76ca05d5e74d8586ee713c9a40cbaf6d8cf4870fb4e06c0553ff9911a1"
+  },
+  {
+    "path": "versions/v2.6/ios/Tests/Fixtures/text.png",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Tests/Fixtures/text.png",
+    "sha256": "90874fbe8c75f3fd081a81fb746f7e6367a2a69c74b3ad8cb8c832262c3671ba"
+  },
+  {
+    "path": "versions/v2.6/ios/Tests/HOST_TEST_RESULTS.txt",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Tests/HOST_TEST_RESULTS.txt",
+    "sha256": "73f32756671b03219d241f57624389864922686ef4f2b752d34f692025ae71a5"
+  },
+  {
+    "path": "versions/v2.6/ios/Tests/KeyManagerUITests.swift",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Tests/KeyManagerUITests.swift",
+    "sha256": "7d98e96a5bb8ecb9ba9699dd4179b3206354163fe99eaffd4d25d8beafa8a098"
+  },
+  {
+    "path": "versions/v2.6/ios/Tests/NativeTests.swift",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Tests/NativeTests.swift",
+    "sha256": "36222e943f4127245ef7f2e751ebd158ef325a7cfff73cd934f373c32086bbcb"
+  },
+  {
+    "path": "versions/v2.6/ios/Tests/PixelCLI.cpp",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Tests/PixelCLI.cpp",
+    "sha256": "d7ac54888e52f438c0d8d9b8fded8ce2cc7beee3ae5e1d36bcefbbe4a0b534c3"
+  },
+  {
+    "path": "versions/v2.6/ios/Tests/WindowsCrypto.cpp",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Tests/WindowsCrypto.cpp",
+    "sha256": "729dfe155f3362729f33b1ff5fec549d99728f705b246e81defe40bec24b2b36"
+  },
+  {
+    "path": "versions/v2.6/ios/Tests/interop.py",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Tests/interop.py",
+    "sha256": "833ac574d12c007545bb383420ffece1a22ad3ed299cd1e5cbeca7329482bd19"
+  },
+  {
+    "path": "versions/v2.6/ios/Vendor/stb_image.h",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Vendor/stb_image.h",
+    "sha256": "594c2fe35d49488b4382dbfaec8f98366defca819d916ac95becf3e75f4200b3"
+  },
+  {
+    "path": "versions/v2.6/ios/Vendor/stb_image_write.h",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/Vendor/stb_image_write.h",
+    "sha256": "cbd5f0ad7a9cf4468affb36354a1d2338034f2c12473cf1a8e32053cb6914a05"
+  },
+  {
+    "path": "versions/v2.6/ios/binary_image_passcode.xcodeproj/project.pbxproj",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/binary_image_passcode.xcodeproj/project.pbxproj",
+    "sha256": "fde17671acfc963e33050362beede6a0447bb96f5e1bb12200728a2f703da7b2"
+  },
+  {
+    "path": "versions/v2.6/ios/binary_image_passcode.xcodeproj/xcshareddata/xcschemes/binary_image_passcode.xcscheme",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/binary_image_passcode.xcodeproj/xcshareddata/xcschemes/binary_image_passcode.xcscheme",
+    "sha256": "18a28d71dbaa1c65eaca81bed7efec4546603ad60cbfd68fa4ca2a82c84262b3"
+  },
+  {
+    "path": "versions/v2.6/ios/build_ios.py",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/build_ios.py",
+    "sha256": "f9e8d7e7dd3c64f10a91c2d013039b7204d34a0e1c03cf87e691b1edf5ed8bfd"
+  },
+  {
+    "path": "versions/v2.6/ios/generate_project.py",
+    "source": "v2.6/sourcecode/binary_image_passcode_ios/generate_project.py",
+    "sha256": "240546c65d80d44486ee52ac707c108e259ce8d2e033cec5496e0b41ed6abdb5"
+  }
+]

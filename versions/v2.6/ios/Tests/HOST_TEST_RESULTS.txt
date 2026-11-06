@@ -1,0 +1,35 @@
+Text envelope byte-identical to Python
+Unicode, literal backslash-u, modes, whitespace
+Every BMP scalar value cross-decoded
+60,000 unit boundary
+Over-limit text rejected
+SHAKE256 FIPS output
+16 damaged bytes per RS block recovered
+C++ text -> Python False
+Python text -> C++ False
+C++ cropped text False
+C++ rotated text False
+C++ text -> Python True
+Python text -> C++ True
+C++ cropped text True
+C++ rotated text True
+JPG AES-GCM envelope byte-identical
+Image envelope authenticated open False
+C++ image -> Python (False, False)
+Python image -> C++ (False, False)
+C++ image crop (False, False)
+C++ image -> Python (False, True)
+Python image -> C++ (False, True)
+C++ image crop (False, True)
+Wrong key releases no plaintext False
+Corrupt AES tag rejected False
+PNG AES-GCM envelope byte-identical
+Image envelope authenticated open True
+C++ image -> Python (True, False)
+Python image -> C++ (True, False)
+C++ image rotate90 (True, False)
+C++ image rotate180 (True, False)
+C++ image rotate270 (True, False)
+Wrong key releases no plaintext True
+Corrupt AES tag rejected True
+Corrupt HMAC rejected

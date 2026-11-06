@@ -1,0 +1,23 @@
+package org.binarypasscode.image;
+
+import java.util.*;
+import java.security.MessageDigest;
+
+/** Full-file PNG transport. Requires intact pixels; supports right-angle rotations. */
+public final class DenseTransport {
+    static final int COPY_BYTES=92,PREFIX_BITS=2208;
+    static long[]geometry(int w,int h){int mx=(int)Math.ceil(w*.04),my=(int)Math.ceil(h*.04),iw=w-2*mx,ih=h-2*my;return new long[]{mx,my,iw,ih,(long)Math.max(0,iw)*Math.max(0,ih)*3};}
+    public static int capacity(int w,int h){return (int)Math.max(0,Math.min(ImagePayload.MAX_PNG,(geometry(w,h)[4]-PREFIX_BITS)/8-87));}
+    public static int squareRequired(int size){int side=Math.max(32,(int)Math.ceil(Math.sqrt(((size+87L)*8+PREFIX_BITS)/(3*.92*.92))));while(side<20000&&capacity(side,side)<size)side++;return (long)side*side<=80000000&&capacity(side,side)>=size?side:0;}
+    static int get(Transport.Image im,long slot){long[]g=geometry(im.width,im.height);long p=slot/3;return im.bit((int)(g[0]+p%g[2]),(int)(g[1]+p/g[2]),(int)(slot%3));}
+    static void set(Transport.Image im,long slot,int bit){long[]g=geometry(im.width,im.height);long p=slot/3;im.bit((int)(g[0]+p%g[2]),(int)(g[1]+p/g[2]),(int)(slot%3),bit);}
+    static byte[]read(Transport.Image im,long first,int bytes){byte[]out=new byte[bytes];for(int bit=0;bit<bytes*8;bit++)out[bit/8]|=get(im,first+bit)<<(7-bit%8);return out;}
+    static long gcd(long a,long b){while(b!=0){long t=a%b;a=b;b=t;}return a;}
+    static long[]order(String key,byte[]nonce,long count){byte[]seed=Crypto.mac(ImagePayload.derive(key,"dense-positions",nonce),Crypto.bytes("positions"));long start=Long.remainderUnsigned(Crypto.read(seed,0,8),count),step=Long.remainderUnsigned(Crypto.read(seed,8,8),count);if(step==0)step=1;while(gcd(step,count)!=1){step=(step+1)%count;if(step==0)step=1;}return new long[]{start,step};}
+    public static Transport.Layout encode(Transport.Image image,byte[]envelope,String key,Transport.Progress progress){Crypto.validate(key);long[]g=geometry(image.width,image.height);long count=g[4]-PREFIX_BITS;if(count<envelope.length*8L)throw Crypto.error("底图空间不足，请选择更大的底图。");byte[]nonce=Crypto.slice(envelope,8,56),h=Crypto.cat(Crypto.bytes("BIPD"),new byte[]{1,4,0,0},nonce,Crypto.number(envelope.length,4)),header=Crypto.cat(h,Crypto.mac(ImagePayload.derive(key,"dense-header",nonce),h));for(int copy=0;copy<3;copy++)for(int bit=0;bit<COPY_BYTES*8;bit++)set(image,copy*COPY_BYTES*8+bit,(header[bit/8]>>(7-bit%8))&1);
+        long[]order=order(key,nonce,count);long pos=order[0];for(int i=0;i<envelope.length;i++){if(i%32768==0){Crypto.check();if(progress!=null)progress.update(5+90*i/envelope.length,"正在写入PNG无损图片…");}for(int b=7;b>=0;b--){long p=(PREFIX_BITS+pos)/3;int c=(int)((PREFIX_BITS+pos)%3);image.bit((int)(g[0]+p%g[2]),(int)(g[1]+p/g[2]),c,(envelope[i]>>b)&1);pos=(pos+order[1])%count;}}
+        Transport.Layout l=new Transport.Layout();l.n=l.k=1;l.margin=.04;l.fraction=(envelope.length*8.0+PREFIX_BITS)/(image.width*(double)image.height*3);return l;}
+    public static Transport.Result decode(Transport.Image original,String key,Transport.Progress progress){boolean recognized=false;for(int rotation=0;rotation<4;rotation++){Crypto.check();Transport.Image image=rotation==0?original:new Transport.Image(original,rotation);long[]g=geometry(image.width,image.height);long count=g[4]-PREFIX_BITS;if(count<=0)continue;byte[]nonce=null;int total=0;for(int copy=0;copy<3;copy++){byte[]d=read(image,copy*COPY_BYTES*8,COPY_BYTES);if(!Arrays.equals(Arrays.copyOf(d,4),Crypto.bytes("BIPD")))continue;recognized=true;long length=Crypto.read(d,56,4);if(d[4]!=1||d[5]!=4||d[6]!=0||d[7]!=0||length<=87||length>ImagePayload.MAX_PNG+87||length*8>count)continue;byte[]candidate=Crypto.slice(d,8,56),h=Arrays.copyOf(d,60);if(!MessageDigest.isEqual(Crypto.slice(d,60,92),Crypto.mac(ImagePayload.derive(key,"dense-header",candidate),h)))continue;if(nonce!=null&&(!Arrays.equals(nonce,candidate)||total!=length))throw Crypto.error(Crypto.AUTH);nonce=candidate;total=(int)length;}
+        if(nonce==null)continue;byte[]envelope=new byte[total];long[]o=order(key,nonce,count);long pos=o[0];for(int i=0;i<total;i++){if(i%32768==0){Crypto.check();if(progress!=null)progress.update(5+90*i/total,"正在恢复PNG无损图片…");}for(int b=7;b>=0;b--){long p=(PREFIX_BITS+pos)/3;envelope[i]|=image.bit((int)(g[0]+p%g[2]),(int)(g[1]+p/g[2]),(int)((PREFIX_BITS+pos)%3))<<b;pos=(pos+o[1])%count;}}if(!Arrays.equals(nonce,Crypto.slice(envelope,8,56)))throw Crypto.error(Crypto.AUTH);Transport.Result r=ImagePayload.open(envelope,key);if(!r.image.png)throw Crypto.error(Crypto.AUTH);r.recovered=r.total=r.required=1;r.rotation=rotation*90;return r;}
+        if(recognized)throw Crypto.error(Crypto.AUTH);return null;}
+}

@@ -1,0 +1,28 @@
+#pragma code_page(65001)
+#include <windows.h>
+1 VERSIONINFO
+FILEVERSION 1,1,0,0
+PRODUCTVERSION 1,1,0,0
+FILEFLAGSMASK 0x3fL
+FILEFLAGS 0
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_APP
+FILESUBTYPE 0
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "080404b0"
+    BEGIN
+      VALUE "FileDescription", L"\x4e8c\x8fdb\x5236\x5bc6\x7801\x8f6c\x6362\x7ec8\x7aef\0"
+      VALUE "FileVersion", "1.1.0.0\0"
+      VALUE "InternalName", "binary_passcode_terminal\0"
+      VALUE "OriginalFilename", "binary_passcode_terminal.exe\0"
+      VALUE "ProductName", L"\x4e8c\x8fdb\x5236\x5bc6\x7801\x8f6c\x6362\x7ec8\x7aef\0"
+      VALUE "ProductVersion", "1.1\0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0804, 1200
+  END
+END

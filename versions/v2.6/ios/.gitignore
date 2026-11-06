@@ -1,0 +1,9 @@
+dist/
+*.xcuserstate
+xcuserdata/
+*.p12
+*.mobileprovision
+*.ipa
+__pycache__/
+*.exe
+*.obj
